@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <div>
+    <h2>Dashboard</h2>
+    <p class="mb-0">Welcome, {{ current_user.username }}.</p>
+  </div>
+  <a href="{{ url_for('add_expense') }}" class="btn btn-success">Add Expense</a>
+</div>
+
+<div class="row mb-4">
+  <div class="col-md-4">
+    <div class="card text-white bg-primary mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Total Expenses</h5>
+        <p class="card-text fs-3">${{ '%.2f' % total }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Category Summary</h5>
+        {% if categories %}
+          <ul class="list-group list-group-flush">
+            {% for category, value in categories.items() %}
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                {{ category }}
+                <span>${{ '%.2f' % value }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="mb-0">No expenses yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title mb-3">Your Expenses</h5>
+    {% if expenses %}
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Amount</th>
+              <th>Category</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for expense in expenses %}
+            <tr>
+              <td>${{ '%.2f' % expense.amount }}</td>
+              <td>{{ expense.category }}</td>
+              <td>{{ expense.date.strftime('%Y-%m-%d') }}</td>
+              <td>
+                <a href="{{ url_for('edit_expense', id=expense.id) }}" class="btn btn-sm btn-warning">Edit</a>
+                <a href="{{ url_for('delete_expense', id=expense.id) }}" class="btn btn-sm btn-danger">Delete</a>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <p class="mb-0">No expenses recorded yet. Add your first expense.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
