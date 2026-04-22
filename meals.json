@@ -1,0 +1,677 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "username": "demo",
+      "date": "2025-08-01",
+      "food": "Idli",
+      "meal": "Breakfast",
+      "calories": 140,
+      "qty": 2
+    },
+    {
+      "id": 4,
+      "username": "Thanisha R",
+      "date": "2026-04-20",
+      "food": "Curd Rice (1 cup)",
+      "meal": "Breakfast",
+      "calories": 190,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "username": "Thanisha R",
+      "date": "2026-04-19",
+      "food": "Curd Rice (1 cup)",
+      "meal": "Breakfast",
+      "calories": 190,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "username": "Thanisha R",
+      "date": "2026-04-19",
+      "food": "Chicken Biryani (1 cup)",
+      "meal": "Lunch",
+      "calories": 320,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "username": "Thanisha R",
+      "date": "2026-04-18",
+      "food": "Poori",
+      "meal": "Breakfast",
+      "calories": 101,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "username": "Thanisha R",
+      "date": "2026-04-18",
+      "food": "Dal (1 cup)",
+      "meal": "Breakfast",
+      "calories": 150,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "username": "Thanisha R",
+      "date": "2026-04-20",
+      "food": "Pongal",
+      "meal": "Breakfast",
+      "calories": 212,
+      "qty": 1
+    },
+    {
+      "id": 10,
+      "username": "Thanisha R",
+      "date": "2026-04-20",
+      "food": "Aloo Paratha",
+      "meal": "Breakfast",
+      "calories": 320,
+      "qty": 1
+    },
+    {
+      "id": 11,
+      "username": "Thanisha R",
+      "date": "2026-04-20",
+      "food": "Sambar",
+      "meal": "Breakfast",
+      "calories": 85,
+      "qty": 1
+    },
+    {
+      "id": 12,
+      "username": "Thanisha R",
+      "date": "2026-04-20",
+      "food": "Masala Dosa",
+      "meal": "Breakfast",
+      "calories": 1000,
+      "qty": 4
+    },
+    {
+      "id": 13,
+      "username": "Thanisha R",
+      "date": "2026-04-20",
+      "food": "Milk Tea",
+      "meal": "Breakfast",
+      "calories": 60,
+      "qty": 1
+    },
+    {
+      "id": 14,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Grilled Sandwich",
+      "meal": "Snack",
+      "calories": 300,
+      "qty": 1
+    },
+    {
+      "id": 15,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Dosa",
+      "meal": "Breakfast",
+      "calories": 133,
+      "qty": 1,
+      "calories_per_unit": 133,
+      "nutrients_per_unit": null,
+      "nutrients_source": null
+    },
+    {
+      "id": 16,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Poori",
+      "meal": "Breakfast",
+      "calories": 101,
+      "qty": 1,
+      "calories_per_unit": 101,
+      "nutrients_per_unit": null,
+      "nutrients_source": null
+    },
+    {
+      "id": 17,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Masala Dosa",
+      "meal": "Breakfast",
+      "calories": 250,
+      "qty": 1,
+      "calories_per_unit": 250,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 5.8,
+          "carbs_g": 43.15,
+          "fat_g": 5.51,
+          "fiber_g": 2.83
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source\u2019s nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/global/foods/all/masala-dosa",
+          "fetched_at": "2026-04-21T14:39:16+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_source": {
+        "provider": "IndianCalorie",
+        "url": "https://www.indiancalorie.com/global/foods/all/masala-dosa",
+        "fetched_at": "2026-04-21T14:39:16+00:00",
+        "unit_conversions": {
+          "vitamin_a_iu_to_mcg": 0.3,
+          "vitamin_d_iu_to_mcg": 0.025
+        }
+      }
+    },
+    {
+      "id": 18,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Butter Toast",
+      "meal": "Breakfast",
+      "calories": 120,
+      "qty": 1,
+      "calories_per_unit": 120,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": null,
+          "carbs_g": null,
+          "fat_g": null,
+          "fiber_g": null,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source\u2019s nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/butter-toast",
+          "fetched_at": "2026-04-21T15:04:01+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_source": {
+        "provider": "IndianCalorie",
+        "url": "https://www.indiancalorie.com/india/foods/all/butter-toast",
+        "fetched_at": "2026-04-21T15:04:01+00:00",
+        "unit_conversions": {
+          "vitamin_a_iu_to_mcg": 0.3,
+          "vitamin_d_iu_to_mcg": 0.025
+        }
+      }
+    },
+    {
+      "id": 19,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Rice (1 cup)",
+      "meal": "Breakfast",
+      "calories": 70,
+      "qty": 1,
+      "calories_per_unit": 70,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated macros from calories (no online data found)."
+        },
+        "macros": {
+          "protein_g": 2.62,
+          "carbs_g": 9.62,
+          "fat_g": 2.33,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {},
+        "minerals": {},
+        "phytonutrients": {},
+        "source": {
+          "provider": "Estimated",
+          "fetched_at": "2026-04-21T16:11:26Z"
+        }
+      },
+      "nutrients_source": {
+        "provider": "Estimated",
+        "fetched_at": "2026-04-21T16:11:26Z"
+      }
+    },
+    {
+      "id": 20,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Idli",
+      "meal": "Breakfast",
+      "calories": 34,
+      "qty": 1,
+      "calories_per_unit": 34,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated macros from calories (no online data found)."
+        },
+        "macros": {
+          "protein_g": 2.62,
+          "carbs_g": 9.62,
+          "fat_g": 2.33,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {},
+        "minerals": {},
+        "phytonutrients": {},
+        "source": {
+          "provider": "Estimated",
+          "fetched_at": "2026-04-21T16:11:11Z"
+        }
+      },
+      "nutrients_source": {
+        "provider": "Estimated",
+        "fetched_at": "2026-04-21T16:11:11Z"
+      }
+    },
+    {
+      "id": 21,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Dosa",
+      "meal": "Breakfast",
+      "calories": 133,
+      "qty": 1,
+      "calories_per_unit": 133,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 3.09,
+          "carbs_g": 22.96,
+          "fat_g": 2.93,
+          "fiber_g": 1.5,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/dosa",
+          "fetched_at": "2026-04-21T16:05:37+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_source": {
+        "provider": "IndianCalorie",
+        "url": "https://www.indiancalorie.com/india/foods/all/dosa",
+        "fetched_at": "2026-04-21T16:05:37+00:00",
+        "unit_conversions": {
+          "vitamin_a_iu_to_mcg": 0.3,
+          "vitamin_d_iu_to_mcg": 0.025
+        }
+      }
+    },
+    {
+      "id": 22,
+      "username": "Thanisha R",
+      "date": "2026-04-21",
+      "food": "Muskmelon",
+      "meal": "Breakfast",
+      "calories": 34,
+      "qty": 1,
+      "calories_per_unit": 34,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated macros from calories (no online data found)."
+        },
+        "macros": {
+          "protein_g": 1.27,
+          "carbs_g": 4.68,
+          "fat_g": 1.13,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {},
+        "minerals": {},
+        "phytonutrients": {},
+        "source": {
+          "provider": "Estimated",
+          "fetched_at": "2026-04-21T16:14:30Z"
+        }
+      },
+      "nutrients_source": {
+        "provider": "Estimated",
+        "fetched_at": "2026-04-21T16:14:30Z"
+      }
+    },
+    {
+      "id": 23,
+      "username": "Thanisha R",
+      "date": "2026-04-22",
+      "food": "Butter Toast",
+      "meal": "Breakfast",
+      "calories": 120,
+      "qty": 1,
+      "calories_per_unit": 120,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 4.49,
+          "carbs_g": 16.51,
+          "fat_g": 4.0,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/breakfast/butter-toast",
+          "fetched_at": "2026-04-22T04:32:17+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          },
+          "macros_estimated": true,
+          "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+        }
+      },
+      "nutrients_source": {
+        "provider": "IndianCalorie",
+        "url": "https://www.indiancalorie.com/india/foods/breakfast/butter-toast",
+        "fetched_at": "2026-04-22T04:32:17+00:00",
+        "unit_conversions": {
+          "vitamin_a_iu_to_mcg": 0.3,
+          "vitamin_d_iu_to_mcg": 0.025
+        },
+        "macros_estimated": true,
+        "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+      }
+    },
+    {
+      "id": 24,
+      "username": "Thanisha R",
+      "date": "2026-04-22",
+      "food": "Grapes",
+      "meal": "Breakfast",
+      "calories": 69,
+      "qty": 1,
+      "calories_per_unit": 69,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 2.58,
+          "carbs_g": 9.48,
+          "fat_g": 2.3,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/grapes",
+          "fetched_at": "2026-04-22T04:44:54+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          },
+          "macros_estimated": true,
+          "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+        }
+      },
+      "nutrients_source": {
+        "provider": "IndianCalorie",
+        "url": "https://www.indiancalorie.com/india/foods/all/grapes",
+        "fetched_at": "2026-04-22T04:44:54+00:00",
+        "unit_conversions": {
+          "vitamin_a_iu_to_mcg": 0.3,
+          "vitamin_d_iu_to_mcg": 0.025
+        },
+        "macros_estimated": true,
+        "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+      }
+    },
+    {
+      "id": 25,
+      "username": "Thanisha R",
+      "date": "2026-04-22",
+      "food": "Pomegranate",
+      "meal": "Breakfast",
+      "calories": 83,
+      "qty": 1,
+      "calories_per_unit": 83,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated macros from calories (no online data found)."
+        },
+        "macros": {
+          "protein_g": 3.11,
+          "carbs_g": 11.41,
+          "fat_g": 2.77,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {},
+        "minerals": {},
+        "phytonutrients": {},
+        "source": {
+          "provider": "Estimated",
+          "fetched_at": "2026-04-22T04:52:44Z"
+        }
+      },
+      "nutrients_source": {
+        "provider": "Estimated",
+        "fetched_at": "2026-04-22T04:52:44Z"
+      }
+    },
+    {
+      "id": 26,
+      "username": "Thanisha R",
+      "date": "2026-04-22",
+      "food": "Avocado",
+      "meal": "Breakfast",
+      "calories": 160,
+      "qty": 1,
+      "calories_per_unit": 160,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated macros from calories (no online data found)."
+        },
+        "macros": {
+          "protein_g": 6.0,
+          "carbs_g": 22.0,
+          "fat_g": 5.33,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {},
+        "minerals": {},
+        "phytonutrients": {},
+        "source": {
+          "provider": "Estimated",
+          "fetched_at": "2026-04-22T06:19:01Z"
+        }
+      },
+      "nutrients_source": {
+        "provider": "Estimated",
+        "fetched_at": "2026-04-22T06:19:01Z"
+      }
+    },
+    {
+      "id": 27,
+      "username": "Thanisha R",
+      "date": "2026-04-22",
+      "food": "Mango Lassi",
+      "meal": "Breakfast",
+      "calories": 220,
+      "qty": 1,
+      "calories_per_unit": 220,
+      "nutrients_per_unit": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated macros from calories (no online data found)."
+        },
+        "macros": {
+          "protein_g": 8.25,
+          "carbs_g": 30.25,
+          "fat_g": 7.33,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {},
+        "minerals": {},
+        "phytonutrients": {},
+        "source": {
+          "provider": "Estimated",
+          "fetched_at": "2026-04-22T07:48:36Z"
+        }
+      },
+      "nutrients_source": {
+        "provider": "Estimated",
+        "fetched_at": "2026-04-22T07:48:36Z"
+      }
+    }
+  ]
+}

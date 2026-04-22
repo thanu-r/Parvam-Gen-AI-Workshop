@@ -1,0 +1,11 @@
+{
+  "default_daily_goal": 2000,
+  "users": {
+    "demo": {
+      "daily_goal": 2000
+    },
+    "Thanisha R": {
+      "daily_goal": 1500
+    }
+  }
+}

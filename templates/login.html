@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Login | Food Calorie Counter{% endblock %}
+
+{% block content %}
+<section class="auth-card">
+  <div>
+    <p class="eyebrow">Welcome Back</p>
+    <h2>Sign in</h2>
+    <p class="muted">Access your dashboard and continue tracking.</p>
+  </div>
+  <form method="post" class="form-card">
+    <label>Username</label>
+    <input type="text" name="username" placeholder="Enter username" required>
+
+    <label>Password</label>
+    <input type="password" name="password" placeholder="Enter password" required>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+    <p class="form-hint muted">New here? <a class="text-link" href="{{ url_for('register') }}">Create an account</a></p>
+  </form>
+</section>
+{% endblock %}

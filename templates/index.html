@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Home | Food Calorie Counter{% endblock %}
+
+{% block content %}
+<section class="hero-card">
+  <div>
+    <p class="eyebrow">Daily Nutrition</p>
+    <h1>Track meals with a cleaner, calmer daily view.</h1>
+    <p class="hero-copy">Log food, follow your calorie goal, and review your history in seconds.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ url_for('login') }}">Login</a>
+      <a class="btn btn-secondary" href="{{ url_for('register') }}">Create Account</a>
+    </div>
+  </div>
+  <div class="hero-panel">
+    <div class="metric-card">
+      <span class="metric-label">Smart Log</span>
+      <strong>Fast food entry</strong>
+      <p>Known items fill calories automatically from your local food database.</p>
+    </div>
+    <div class="metric-card">
+      <span class="metric-label">Goal Status</span>
+      <strong>Instant feedback</strong>
+      <p>Your progress updates live and warns you when the limit is crossed.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

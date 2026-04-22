@@ -1,0 +1,3145 @@
+{
+  "foods": [
+    {
+      "name": "Idli",
+      "calories": 70
+    },
+    {
+      "name": "Dosa",
+      "calories": 133,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 3.09,
+          "carbs_g": 22.96,
+          "fat_g": 2.93,
+          "fiber_g": 1.5,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/breakfast/dosa",
+          "fetched_at": "2026-04-22T04:39:04+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_updated_at": "2026-04-22 10:09:04"
+    },
+    {
+      "name": "Masala Dosa",
+      "calories": 250,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 5.8,
+          "carbs_g": 43.15,
+          "fat_g": 5.51,
+          "fiber_g": 2.83
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source\u2019s nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/global/foods/all/masala-dosa",
+          "fetched_at": "2026-04-21T14:39:16+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_updated_at": "2026-04-21 20:09:16"
+    },
+    {
+      "name": "Rava Dosa",
+      "calories": 180
+    },
+    {
+      "name": "Plain Uttapam",
+      "calories": 190
+    },
+    {
+      "name": "Onion Uttapam",
+      "calories": 220
+    },
+    {
+      "name": "Pongal",
+      "calories": 212
+    },
+    {
+      "name": "Upma",
+      "calories": 190
+    },
+    {
+      "name": "Poha",
+      "calories": 180
+    },
+    {
+      "name": "Medu Vada",
+      "calories": 97
+    },
+    {
+      "name": "Sambar",
+      "calories": 85
+    },
+    {
+      "name": "Coconut Chutney (1 tbsp)",
+      "calories": 110
+    },
+    {
+      "name": "Tomato Chutney (1 tbsp)",
+      "calories": 45
+    },
+    {
+      "name": "Peanut Chutney (1 tbsp)",
+      "calories": 95
+    },
+    {
+      "name": "Paratha",
+      "calories": 260
+    },
+    {
+      "name": "Aloo Paratha",
+      "calories": 320
+    },
+    {
+      "name": "Paneer Paratha",
+      "calories": 330
+    },
+    {
+      "name": "Chapati",
+      "calories": 104
+    },
+    {
+      "name": "Phulka",
+      "calories": 80
+    },
+    {
+      "name": "Poori",
+      "calories": 101,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 4.4,
+          "carbs_g": 27.41,
+          "fat_g": 9.74,
+          "fiber_g": 3.03,
+          "sugar_g": 0.72
+        },
+        "vitamins": {
+          "vitamin_a_mcg": 6.5,
+          "vitamin_c_mg": 1.1,
+          "vitamin_d_mcg": 0.0,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": 0.1,
+          "riboflavin_b2_mg": 0.0,
+          "niacin_b3_mg": 0.5,
+          "vitamin_b6_mg": 0.1,
+          "folate_mcg": 20.2,
+          "vitamin_b12_mcg": 0.0
+        },
+        "minerals": {
+          "calcium_mg": 27.4,
+          "iron_mg": 1.9,
+          "magnesium_mg": 23.1,
+          "phosphorus_mg": 64.9,
+          "potassium_mg": 129.9,
+          "sodium_mg": 245.3,
+          "zinc_mg": 0.5
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/curry/poori",
+          "fetched_at": "2026-04-22T04:37:29+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_updated_at": "2026-04-22 10:07:29"
+    },
+    {
+      "name": "Bhatura",
+      "calories": 300
+    },
+    {
+      "name": "Naan",
+      "calories": 262
+    },
+    {
+      "name": "Butter Naan",
+      "calories": 310
+    },
+    {
+      "name": "Kulcha",
+      "calories": 210
+    },
+    {
+      "name": "Pav",
+      "calories": 135
+    },
+    {
+      "name": "Bread Slice",
+      "calories": 75
+    },
+    {
+      "name": "Brown Bread Slice",
+      "calories": 69
+    },
+    {
+      "name": "Multigrain Bread Slice",
+      "calories": 72
+    },
+    {
+      "name": "Toast",
+      "calories": 80
+    },
+    {
+      "name": "Butter Toast",
+      "calories": 120,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 4.49,
+          "carbs_g": 16.51,
+          "fat_g": 4.0,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/butter-toast",
+          "fetched_at": "2026-04-21T16:04:29+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          },
+          "macros_estimated": true,
+          "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+        }
+      },
+      "nutrients_updated_at": "2026-04-21 21:34:31"
+    },
+    {
+      "name": "Jam Toast",
+      "calories": 140
+    },
+    {
+      "name": "Oats Porridge",
+      "calories": 154
+    },
+    {
+      "name": "Cornflakes with Milk",
+      "calories": 180
+    },
+    {
+      "name": "Muesli",
+      "calories": 210
+    },
+    {
+      "name": "Granola",
+      "calories": 220
+    },
+    {
+      "name": "Pancake",
+      "calories": 175
+    },
+    {
+      "name": "Waffle",
+      "calories": 220
+    },
+    {
+      "name": "French Toast",
+      "calories": 210
+    },
+    {
+      "name": "Scrambled Egg",
+      "calories": 140
+    },
+    {
+      "name": "Boiled Egg",
+      "calories": 78
+    },
+    {
+      "name": "Fried Egg",
+      "calories": 90
+    },
+    {
+      "name": "Omelette",
+      "calories": 154
+    },
+    {
+      "name": "Cheese Omelette",
+      "calories": 220
+    },
+    {
+      "name": "Egg Bhurji",
+      "calories": 190
+    },
+    {
+      "name": "Egg Sandwich",
+      "calories": 260
+    },
+    {
+      "name": "Veg Sandwich",
+      "calories": 230
+    },
+    {
+      "name": "Grilled Sandwich",
+      "calories": 300
+    },
+    {
+      "name": "Cheese Sandwich",
+      "calories": 280
+    },
+    {
+      "name": "Peanut Butter Sandwich",
+      "calories": 320
+    },
+    {
+      "name": "Banana",
+      "calories": 89
+    },
+    {
+      "name": "Apple",
+      "calories": 52
+    },
+    {
+      "name": "Orange",
+      "calories": 47
+    },
+    {
+      "name": "Mango",
+      "calories": 99
+    },
+    {
+      "name": "Papaya",
+      "calories": 43
+    },
+    {
+      "name": "Watermelon",
+      "calories": 30
+    },
+    {
+      "name": "Pineapple",
+      "calories": 50
+    },
+    {
+      "name": "Grapes",
+      "calories": 69,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 2.58,
+          "carbs_g": 9.48,
+          "fat_g": 2.3,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/grapes",
+          "fetched_at": "2026-04-22T04:46:44+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          },
+          "macros_estimated": true,
+          "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+        }
+      },
+      "nutrients_updated_at": "2026-04-22 10:16:46"
+    },
+    {
+      "name": "Guava",
+      "calories": 68
+    },
+    {
+      "name": "Pomegranate",
+      "calories": 83,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Scaled from source serving to match your calories-per-unit."
+        },
+        "macros": {
+          "protein_g": 0.0,
+          "carbs_g": 19.76,
+          "fat_g": 0.0,
+          "fiber_g": 0.0,
+          "sugar_g": 19.37
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": 0.0,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not consistently available from this source."
+        },
+        "source": {
+          "provider": "OpenFoodFacts",
+          "product_name": "Pomegranate green tea",
+          "brands": "Arizona",
+          "code": "0613008730758",
+          "url": "https://world.openfoodfacts.org/product/0613008730758/pomegranate-green-tea-arizona",
+          "energy_estimated": false,
+          "fetched_at": "2026-04-22T04:54:49+00:00"
+        }
+      },
+      "nutrients_updated_at": "2026-04-22 10:24:49"
+    },
+    {
+      "name": "Pear",
+      "calories": 57
+    },
+    {
+      "name": "Kiwi",
+      "calories": 61
+    },
+    {
+      "name": "Strawberries",
+      "calories": 32
+    },
+    {
+      "name": "Blueberries",
+      "calories": 57
+    },
+    {
+      "name": "Raspberries",
+      "calories": 52
+    },
+    {
+      "name": "Blackberries",
+      "calories": 43
+    },
+    {
+      "name": "Muskmelon",
+      "calories": 34
+    },
+    {
+      "name": "Cantaloupe",
+      "calories": 34
+    },
+    {
+      "name": "Plum",
+      "calories": 46
+    },
+    {
+      "name": "Peach",
+      "calories": 39
+    },
+    {
+      "name": "Apricot",
+      "calories": 48
+    },
+    {
+      "name": "Lychee",
+      "calories": 66
+    },
+    {
+      "name": "Sapota",
+      "calories": 83
+    },
+    {
+      "name": "Custard Apple",
+      "calories": 94
+    },
+    {
+      "name": "Fig",
+      "calories": 74
+    },
+    {
+      "name": "Dates",
+      "calories": 282
+    },
+    {
+      "name": "Raisins",
+      "calories": 299
+    },
+    {
+      "name": "Avocado",
+      "calories": 160,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 6.0,
+          "carbs_g": 22.0,
+          "fat_g": 5.33,
+          "fiber_g": 0.0,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source's nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/avocado",
+          "fetched_at": "2026-04-22T07:02:51+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          },
+          "macros_estimated": true,
+          "macros_estimated_note": "Filled missing macros from energy using a default macro split."
+        }
+      },
+      "nutrients_updated_at": "2026-04-22 12:32:53"
+    },
+    {
+      "name": "Coconut Water",
+      "calories": 19
+    },
+    {
+      "name": "Tender Coconut",
+      "calories": 80
+    },
+    {
+      "name": "Milk",
+      "calories": 103
+    },
+    {
+      "name": "Skim Milk",
+      "calories": 83
+    },
+    {
+      "name": "Soy Milk",
+      "calories": 100
+    },
+    {
+      "name": "Almond Milk",
+      "calories": 39
+    },
+    {
+      "name": "Curd",
+      "calories": 98
+    },
+    {
+      "name": "Greek Yogurt",
+      "calories": 120
+    },
+    {
+      "name": "Buttermilk",
+      "calories": 40
+    },
+    {
+      "name": "Lassi",
+      "calories": 180
+    },
+    {
+      "name": "Mango Lassi",
+      "calories": 220
+    },
+    {
+      "name": "Paneer",
+      "calories": 265
+    },
+    {
+      "name": "Tofu",
+      "calories": 76
+    },
+    {
+      "name": "Cheddar Cheese",
+      "calories": 402
+    },
+    {
+      "name": "Mozzarella Cheese",
+      "calories": 280
+    },
+    {
+      "name": "Butter",
+      "calories": 717
+    },
+    {
+      "name": "Ghee",
+      "calories": 900
+    },
+    {
+      "name": "Rice (1 cup)",
+      "calories": 130
+    },
+    {
+      "name": "Brown Rice (1 cup)",
+      "calories": 111
+    },
+    {
+      "name": "Jeera Rice (1 cup)",
+      "calories": 180
+    },
+    {
+      "name": "Lemon Rice (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Curd Rice (1 cup)",
+      "calories": 190
+    },
+    {
+      "name": "Tamarind Rice (1 cup)",
+      "calories": 220
+    },
+    {
+      "name": "Coconut Rice (1 cup)",
+      "calories": 230
+    },
+    {
+      "name": "Fried Rice (1 cup)",
+      "calories": 250
+    },
+    {
+      "name": "Veg Pulao (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Peas Pulao (1 cup)",
+      "calories": 220
+    },
+    {
+      "name": "Biryani (1 cup)",
+      "calories": 290
+    },
+    {
+      "name": "Veg Biryani (1 cup)",
+      "calories": 270
+    },
+    {
+      "name": "Chicken Biryani (1 cup)",
+      "calories": 320
+    },
+    {
+      "name": "Mutton Biryani (1 cup)",
+      "calories": 340
+    },
+    {
+      "name": "Khichdi",
+      "calories": 180
+    },
+    {
+      "name": "Dal Khichdi",
+      "calories": 170
+    },
+    {
+      "name": "Quinoa",
+      "calories": 120
+    },
+    {
+      "name": "Millet",
+      "calories": 119
+    },
+    {
+      "name": "Ragi Mudde",
+      "calories": 140
+    },
+    {
+      "name": "Broken Wheat Upma",
+      "calories": 180
+    },
+    {
+      "name": "Pasta",
+      "calories": 158
+    },
+    {
+      "name": "White Pasta",
+      "calories": 190
+    },
+    {
+      "name": "Red Sauce Pasta",
+      "calories": 230
+    },
+    {
+      "name": "White Sauce Pasta",
+      "calories": 320
+    },
+    {
+      "name": "Macaroni",
+      "calories": 170
+    },
+    {
+      "name": "Noodles",
+      "calories": 220
+    },
+    {
+      "name": "Hakka Noodles",
+      "calories": 290
+    },
+    {
+      "name": "Schezwan Noodles",
+      "calories": 310
+    },
+    {
+      "name": "Vermicelli",
+      "calories": 150
+    },
+    {
+      "name": "Semiya Upma",
+      "calories": 175
+    },
+    {
+      "name": "Roti",
+      "calories": 97
+    },
+    {
+      "name": "Thepla",
+      "calories": 130
+    },
+    {
+      "name": "Missi Roti",
+      "calories": 150
+    },
+    {
+      "name": "Bhakri",
+      "calories": 170
+    },
+    {
+      "name": "Makki Roti",
+      "calories": 160
+    },
+    {
+      "name": "Dal (1 cup)",
+      "calories": 150
+    },
+    {
+      "name": "Dal Tadka (1 cup)",
+      "calories": 180
+    },
+    {
+      "name": "Dal Fry (1 cup)",
+      "calories": 220
+    },
+    {
+      "name": "Rajma (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Chole (1 cup)",
+      "calories": 230
+    },
+    {
+      "name": "Kala Chana Curry (1 cup)",
+      "calories": 190
+    },
+    {
+      "name": "White Chana Curry (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Moong Dal (1 cup)",
+      "calories": 145
+    },
+    {
+      "name": "Toor Dal (1 cup)",
+      "calories": 150
+    },
+    {
+      "name": "Masoor Dal (1 cup)",
+      "calories": 140
+    },
+    {
+      "name": "Urad Dal (1 cup)",
+      "calories": 155
+    },
+    {
+      "name": "Sprouts Salad",
+      "calories": 120
+    },
+    {
+      "name": "Sprouts Chaat",
+      "calories": 150
+    },
+    {
+      "name": "Salad",
+      "calories": 33
+    },
+    {
+      "name": "Caesar Salad",
+      "calories": 180
+    },
+    {
+      "name": "Greek Salad",
+      "calories": 150
+    },
+    {
+      "name": "Cucumber Salad",
+      "calories": 40
+    },
+    {
+      "name": "Fruit Salad",
+      "calories": 95
+    },
+    {
+      "name": "Vegetable Soup",
+      "calories": 80
+    },
+    {
+      "name": "Tomato Soup",
+      "calories": 74
+    },
+    {
+      "name": "Sweet Corn Soup",
+      "calories": 120
+    },
+    {
+      "name": "Hot and Sour Soup",
+      "calories": 90
+    },
+    {
+      "name": "Manchow Soup",
+      "calories": 130
+    },
+    {
+      "name": "Chicken Soup",
+      "calories": 110
+    },
+    {
+      "name": "Mushroom Soup",
+      "calories": 95
+    },
+    {
+      "name": "Palak Paneer (1 cup)",
+      "calories": 270
+    },
+    {
+      "name": "Paneer Butter Masala (1 cup)",
+      "calories": 330
+    },
+    {
+      "name": "Paneer Tikka Masala (1 cup)",
+      "calories": 300
+    },
+    {
+      "name": "Kadai Paneer (1 cup)",
+      "calories": 280
+    },
+    {
+      "name": "Shahi Paneer (1 cup)",
+      "calories": 340
+    },
+    {
+      "name": "Matar Paneer (1 cup)",
+      "calories": 260
+    },
+    {
+      "name": "Paneer Bhurji",
+      "calories": 250
+    },
+    {
+      "name": "Aloo Gobi",
+      "calories": 170
+    },
+    {
+      "name": "Bhindi Masala",
+      "calories": 160
+    },
+    {
+      "name": "Baingan Bharta",
+      "calories": 150
+    },
+    {
+      "name": "Cabbage Poriyal",
+      "calories": 110
+    },
+    {
+      "name": "Beans Poriyal",
+      "calories": 105
+    },
+    {
+      "name": "Carrot Poriyal",
+      "calories": 100
+    },
+    {
+      "name": "Potato Fry",
+      "calories": 210
+    },
+    {
+      "name": "Potato Curry (1 cup)",
+      "calories": 180
+    },
+    {
+      "name": "Mixed Vegetable Curry (1 cup)",
+      "calories": 160
+    },
+    {
+      "name": "Veg Kurma",
+      "calories": 220
+    },
+    {
+      "name": "Navratan Korma",
+      "calories": 260
+    },
+    {
+      "name": "Malai Kofta",
+      "calories": 320
+    },
+    {
+      "name": "Dum Aloo",
+      "calories": 240
+    },
+    {
+      "name": "Mushroom Masala",
+      "calories": 190
+    },
+    {
+      "name": "Methi Malai Mutter",
+      "calories": 290
+    },
+    {
+      "name": "Capsicum Curry (1 cup)",
+      "calories": 140
+    },
+    {
+      "name": "Pumpkin Sabzi (1 cup)",
+      "calories": 120
+    },
+    {
+      "name": "Bottle Gourd Curry (1 cup)",
+      "calories": 100
+    },
+    {
+      "name": "Ridge Gourd Curry (1 cup)",
+      "calories": 95
+    },
+    {
+      "name": "Drumstick Curry (1 cup)",
+      "calories": 110
+    },
+    {
+      "name": "Avial",
+      "calories": 180
+    },
+    {
+      "name": "Kootu",
+      "calories": 150
+    },
+    {
+      "name": "Rasam",
+      "calories": 45
+    },
+    {
+      "name": "Moru Curry (1 cup)",
+      "calories": 90
+    },
+    {
+      "name": "Kadhi (1 cup)",
+      "calories": 140
+    },
+    {
+      "name": "Pakora Kadhi (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Chicken Curry (1 cup)",
+      "calories": 280
+    },
+    {
+      "name": "Butter Chicken",
+      "calories": 350
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "calories": 310
+    },
+    {
+      "name": "Chicken Korma (1 cup)",
+      "calories": 330
+    },
+    {
+      "name": "Chicken Roast",
+      "calories": 260
+    },
+    {
+      "name": "Tandoori Chicken",
+      "calories": 230
+    },
+    {
+      "name": "Chicken 65",
+      "calories": 290
+    },
+    {
+      "name": "Chicken Fry",
+      "calories": 300
+    },
+    {
+      "name": "Chilli Chicken",
+      "calories": 280
+    },
+    {
+      "name": "Chicken Manchurian",
+      "calories": 270
+    },
+    {
+      "name": "Grilled Chicken",
+      "calories": 165
+    },
+    {
+      "name": "Roast Chicken",
+      "calories": 239
+    },
+    {
+      "name": "Chicken Wings",
+      "calories": 290
+    },
+    {
+      "name": "Chicken Nuggets",
+      "calories": 296
+    },
+    {
+      "name": "Chicken Popcorn",
+      "calories": 320
+    },
+    {
+      "name": "Mutton Curry (1 cup)",
+      "calories": 320
+    },
+    {
+      "name": "Mutton Fry",
+      "calories": 340
+    },
+    {
+      "name": "Keema",
+      "calories": 280
+    },
+    {
+      "name": "Fish Curry (1 cup)",
+      "calories": 220
+    },
+    {
+      "name": "Fish Fry",
+      "calories": 250
+    },
+    {
+      "name": "Grilled Fish",
+      "calories": 180
+    },
+    {
+      "name": "Prawn Curry (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Prawn Fry",
+      "calories": 240
+    },
+    {
+      "name": "Crab Curry (1 cup)",
+      "calories": 190
+    },
+    {
+      "name": "Egg Curry (1 cup)",
+      "calories": 190
+    },
+    {
+      "name": "Egg Fried Rice",
+      "calories": 280
+    },
+    {
+      "name": "Egg Noodles",
+      "calories": 290
+    },
+    {
+      "name": "Veg Cutlet",
+      "calories": 140
+    },
+    {
+      "name": "Aloo Tikki",
+      "calories": 150
+    },
+    {
+      "name": "Samosa",
+      "calories": 252
+    },
+    {
+      "name": "Kachori",
+      "calories": 230
+    },
+    {
+      "name": "Pakora",
+      "calories": 180
+    },
+    {
+      "name": "Onion Pakoda",
+      "calories": 210
+    },
+    {
+      "name": "Paneer Pakoda",
+      "calories": 240
+    },
+    {
+      "name": "Mirchi Bajji",
+      "calories": 180
+    },
+    {
+      "name": "Bonda",
+      "calories": 160
+    },
+    {
+      "name": "Aloo Bonda",
+      "calories": 170
+    },
+    {
+      "name": "Pav Bhaji",
+      "calories": 400
+    },
+    {
+      "name": "Vada Pav",
+      "calories": 286
+    },
+    {
+      "name": "Misal Pav",
+      "calories": 350
+    },
+    {
+      "name": "Dabeli",
+      "calories": 290
+    },
+    {
+      "name": "Pani Puri",
+      "calories": 180
+    },
+    {
+      "name": "Bhel Puri",
+      "calories": 170
+    },
+    {
+      "name": "Sev Puri",
+      "calories": 220
+    },
+    {
+      "name": "Ragda Pattice",
+      "calories": 280
+    },
+    {
+      "name": "Dahi Puri",
+      "calories": 210
+    },
+    {
+      "name": "Dahi Vada",
+      "calories": 190
+    },
+    {
+      "name": "Papdi Chaat",
+      "calories": 240
+    },
+    {
+      "name": "Aloo Chaat",
+      "calories": 180
+    },
+    {
+      "name": "Corn Chaat",
+      "calories": 150
+    },
+    {
+      "name": "Chana Chaat",
+      "calories": 160
+    },
+    {
+      "name": "Momos",
+      "calories": 220
+    },
+    {
+      "name": "Veg Momos",
+      "calories": 200
+    },
+    {
+      "name": "Chicken Momos",
+      "calories": 230
+    },
+    {
+      "name": "Spring Roll",
+      "calories": 150
+    },
+    {
+      "name": "Veg Spring Roll",
+      "calories": 145
+    },
+    {
+      "name": "Chicken Spring Roll",
+      "calories": 170
+    },
+    {
+      "name": "Manchurian",
+      "calories": 250
+    },
+    {
+      "name": "Gobi Manchurian",
+      "calories": 270
+    },
+    {
+      "name": "Paneer Manchurian",
+      "calories": 290
+    },
+    {
+      "name": "Veg Fried Rice",
+      "calories": 250
+    },
+    {
+      "name": "Schezwan Fried Rice",
+      "calories": 280
+    },
+    {
+      "name": "Burger",
+      "calories": 295
+    },
+    {
+      "name": "Veg Burger",
+      "calories": 270
+    },
+    {
+      "name": "Chicken Burger",
+      "calories": 320
+    },
+    {
+      "name": "Cheese Burger",
+      "calories": 350
+    },
+    {
+      "name": "Pizza Slice",
+      "calories": 285
+    },
+    {
+      "name": "Veg Pizza Slice",
+      "calories": 260
+    },
+    {
+      "name": "Margherita Pizza Slice",
+      "calories": 250
+    },
+    {
+      "name": "Pepperoni Pizza Slice",
+      "calories": 313
+    },
+    {
+      "name": "French Fries",
+      "calories": 312
+    },
+    {
+      "name": "Potato Wedges",
+      "calories": 280
+    },
+    {
+      "name": "Garlic Bread",
+      "calories": 170
+    },
+    {
+      "name": "Taco",
+      "calories": 190
+    },
+    {
+      "name": "Burrito",
+      "calories": 320
+    },
+    {
+      "name": "Quesadilla",
+      "calories": 330
+    },
+    {
+      "name": "Nachos",
+      "calories": 346
+    },
+    {
+      "name": "Hummus",
+      "calories": 166
+    },
+    {
+      "name": "Falafel",
+      "calories": 333
+    },
+    {
+      "name": "Pita Bread",
+      "calories": 165
+    },
+    {
+      "name": "Shawarma",
+      "calories": 320
+    },
+    {
+      "name": "Chicken Shawarma",
+      "calories": 340
+    },
+    {
+      "name": "Veg Wrap",
+      "calories": 250
+    },
+    {
+      "name": "Chicken Wrap",
+      "calories": 310
+    },
+    {
+      "name": "Paneer Wrap",
+      "calories": 290
+    },
+    {
+      "name": "Frankie",
+      "calories": 300
+    },
+    {
+      "name": "Kathi Roll",
+      "calories": 330
+    },
+    {
+      "name": "Paneer Roll",
+      "calories": 310
+    },
+    {
+      "name": "Egg Roll",
+      "calories": 290
+    },
+    {
+      "name": "Chicken Roll",
+      "calories": 340
+    },
+    {
+      "name": "Hot Dog",
+      "calories": 290
+    },
+    {
+      "name": "Popcorn",
+      "calories": 375
+    },
+    {
+      "name": "Salted Popcorn",
+      "calories": 387
+    },
+    {
+      "name": "Butter Popcorn",
+      "calories": 420
+    },
+    {
+      "name": "Roasted Peanuts",
+      "calories": 567
+    },
+    {
+      "name": "Boiled Peanuts",
+      "calories": 318
+    },
+    {
+      "name": "Almonds",
+      "calories": 579
+    },
+    {
+      "name": "Cashews",
+      "calories": 553
+    },
+    {
+      "name": "Pistachios",
+      "calories": 562
+    },
+    {
+      "name": "Walnuts",
+      "calories": 654
+    },
+    {
+      "name": "Hazelnuts",
+      "calories": 628
+    },
+    {
+      "name": "Pecan Nuts",
+      "calories": 691
+    },
+    {
+      "name": "Sunflower Seeds",
+      "calories": 584
+    },
+    {
+      "name": "Pumpkin Seeds",
+      "calories": 559
+    },
+    {
+      "name": "Chia Seeds",
+      "calories": 486
+    },
+    {
+      "name": "Flax Seeds",
+      "calories": 534
+    },
+    {
+      "name": "Sesame Seeds",
+      "calories": 573
+    },
+    {
+      "name": "Trail Mix",
+      "calories": 462
+    },
+    {
+      "name": "Protein Bar",
+      "calories": 220
+    },
+    {
+      "name": "Granola Bar",
+      "calories": 190
+    },
+    {
+      "name": "Energy Bar",
+      "calories": 240
+    },
+    {
+      "name": "Digestive Biscuit",
+      "calories": 70
+    },
+    {
+      "name": "Marie Biscuit",
+      "calories": 28
+    },
+    {
+      "name": "Cream Biscuit",
+      "calories": 75
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "calories": 78
+    },
+    {
+      "name": "Oat Cookie",
+      "calories": 70
+    },
+    {
+      "name": "Cracker",
+      "calories": 35
+    },
+    {
+      "name": "Murukku",
+      "calories": 160
+    },
+    {
+      "name": "Mixture",
+      "calories": 180
+    },
+    {
+      "name": "Banana Chips",
+      "calories": 152
+    },
+    {
+      "name": "Potato Chips",
+      "calories": 160
+    },
+    {
+      "name": "Nachni Chips",
+      "calories": 140
+    },
+    {
+      "name": "Roasted Chana",
+      "calories": 120
+    },
+    {
+      "name": "Masala Makhana",
+      "calories": 105
+    },
+    {
+      "name": "Makhana",
+      "calories": 95
+    },
+    {
+      "name": "Khakhra",
+      "calories": 130
+    },
+    {
+      "name": "Thekua",
+      "calories": 150
+    },
+    {
+      "name": "Jalebi",
+      "calories": 150
+    },
+    {
+      "name": "Gulab Jamun",
+      "calories": 175
+    },
+    {
+      "name": "Rasgulla",
+      "calories": 125
+    },
+    {
+      "name": "Rasmalai",
+      "calories": 186
+    },
+    {
+      "name": "Kheer",
+      "calories": 180
+    },
+    {
+      "name": "Payasam",
+      "calories": 210
+    },
+    {
+      "name": "Kesari",
+      "calories": 230
+    },
+    {
+      "name": "Halwa",
+      "calories": 250
+    },
+    {
+      "name": "Carrot Halwa",
+      "calories": 280
+    },
+    {
+      "name": "Mysore Pak",
+      "calories": 310
+    },
+    {
+      "name": "Laddu",
+      "calories": 180
+    },
+    {
+      "name": "Besan Laddu",
+      "calories": 190
+    },
+    {
+      "name": "Motichoor Laddu",
+      "calories": 200
+    },
+    {
+      "name": "Barfi",
+      "calories": 160
+    },
+    {
+      "name": "Kaju Katli",
+      "calories": 150
+    },
+    {
+      "name": "Peda",
+      "calories": 130
+    },
+    {
+      "name": "Sandesh",
+      "calories": 115
+    },
+    {
+      "name": "Soan Papdi",
+      "calories": 160
+    },
+    {
+      "name": "Modak",
+      "calories": 170
+    },
+    {
+      "name": "Chocolate Cake",
+      "calories": 371
+    },
+    {
+      "name": "Vanilla Cake",
+      "calories": 257
+    },
+    {
+      "name": "Black Forest Cake",
+      "calories": 290
+    },
+    {
+      "name": "Cheesecake",
+      "calories": 321
+    },
+    {
+      "name": "Brownie",
+      "calories": 320
+    },
+    {
+      "name": "Muffin",
+      "calories": 265
+    },
+    {
+      "name": "Cupcake",
+      "calories": 200
+    },
+    {
+      "name": "Doughnut",
+      "calories": 260
+    },
+    {
+      "name": "Ice Cream",
+      "calories": 207
+    },
+    {
+      "name": "Vanilla Ice Cream",
+      "calories": 207
+    },
+    {
+      "name": "Chocolate Ice Cream",
+      "calories": 216
+    },
+    {
+      "name": "Kulfi",
+      "calories": 180
+    },
+    {
+      "name": "Falooda",
+      "calories": 280
+    },
+    {
+      "name": "Milkshake",
+      "calories": 250
+    },
+    {
+      "name": "Chocolate Milkshake",
+      "calories": 320
+    },
+    {
+      "name": "Strawberry Milkshake",
+      "calories": 280
+    },
+    {
+      "name": "Banana Shake",
+      "calories": 260
+    },
+    {
+      "name": "Smoothie",
+      "calories": 180
+    },
+    {
+      "name": "Mango Smoothie",
+      "calories": 210
+    },
+    {
+      "name": "Berry Smoothie",
+      "calories": 190
+    },
+    {
+      "name": "Protein Shake",
+      "calories": 220
+    },
+    {
+      "name": "Orange Juice",
+      "calories": 45
+    },
+    {
+      "name": "Apple Juice",
+      "calories": 46
+    },
+    {
+      "name": "Grape Juice",
+      "calories": 60
+    },
+    {
+      "name": "Pomegranate Juice",
+      "calories": 54
+    },
+    {
+      "name": "Sugarcane Juice",
+      "calories": 110
+    },
+    {
+      "name": "Lemon Juice",
+      "calories": 29
+    },
+    {
+      "name": "Lemonade",
+      "calories": 99
+    },
+    {
+      "name": "Tea",
+      "calories": 30
+    },
+    {
+      "name": "Milk Tea",
+      "calories": 60
+    },
+    {
+      "name": "Black Tea",
+      "calories": 2
+    },
+    {
+      "name": "Green Tea",
+      "calories": 2
+    },
+    {
+      "name": "Masala Tea",
+      "calories": 70
+    },
+    {
+      "name": "Coffee",
+      "calories": 5
+    },
+    {
+      "name": "Milk Coffee",
+      "calories": 80
+    },
+    {
+      "name": "Cold Coffee",
+      "calories": 190
+    },
+    {
+      "name": "Cappuccino",
+      "calories": 120
+    },
+    {
+      "name": "Latte",
+      "calories": 180
+    },
+    {
+      "name": "Mocha",
+      "calories": 240
+    },
+    {
+      "name": "Espresso",
+      "calories": 5
+    },
+    {
+      "name": "Hot Chocolate",
+      "calories": 220
+    },
+    {
+      "name": "Soft Drink",
+      "calories": 140
+    },
+    {
+      "name": "Cola",
+      "calories": 140
+    },
+    {
+      "name": "Diet Cola",
+      "calories": 1
+    },
+    {
+      "name": "Lime Soda",
+      "calories": 80
+    },
+    {
+      "name": "Energy Drink",
+      "calories": 110
+    },
+    {
+      "name": "Sports Drink",
+      "calories": 80
+    },
+    {
+      "name": "Whiskey",
+      "calories": 250
+    },
+    {
+      "name": "Beer",
+      "calories": 153
+    },
+    {
+      "name": "Wine",
+      "calories": 125
+    },
+    {
+      "name": "Vodka",
+      "calories": 231
+    },
+    {
+      "name": "Rum",
+      "calories": 231
+    },
+    {
+      "name": "Gin",
+      "calories": 263
+    },
+    {
+      "name": "Martini",
+      "calories": 160
+    },
+    {
+      "name": "Margarita",
+      "calories": 170
+    },
+    {
+      "name": "Sushi",
+      "calories": 200
+    },
+    {
+      "name": "California Roll",
+      "calories": 255
+    },
+    {
+      "name": "Tempura",
+      "calories": 290
+    },
+    {
+      "name": "Ramen",
+      "calories": 436
+    },
+    {
+      "name": "Udon",
+      "calories": 310
+    },
+    {
+      "name": "Pho",
+      "calories": 350
+    },
+    {
+      "name": "Dim Sum",
+      "calories": 230
+    },
+    {
+      "name": "Bibimbap",
+      "calories": 490
+    },
+    {
+      "name": "Kimchi",
+      "calories": 15
+    },
+    {
+      "name": "Tofu Stir Fry",
+      "calories": 180
+    },
+    {
+      "name": "Veg Stir Fry",
+      "calories": 150
+    },
+    {
+      "name": "Chicken Stir Fry",
+      "calories": 220
+    },
+    {
+      "name": "Beef Steak",
+      "calories": 271
+    },
+    {
+      "name": "Lamb Chops",
+      "calories": 294
+    },
+    {
+      "name": "Pork Chops",
+      "calories": 231
+    },
+    {
+      "name": "Bacon",
+      "calories": 541
+    },
+    {
+      "name": "Sausage",
+      "calories": 301
+    },
+    {
+      "name": "Ham",
+      "calories": 145
+    },
+    {
+      "name": "Turkey Sandwich",
+      "calories": 290
+    },
+    {
+      "name": "Tuna Sandwich",
+      "calories": 310
+    },
+    {
+      "name": "Tuna Salad",
+      "calories": 190
+    },
+    {
+      "name": "Mashed Potato",
+      "calories": 116
+    },
+    {
+      "name": "Baked Potato",
+      "calories": 93
+    },
+    {
+      "name": "Sweet Potato",
+      "calories": 86
+    },
+    {
+      "name": "Roasted Sweet Potato",
+      "calories": 120
+    },
+    {
+      "name": "Corn on the Cob",
+      "calories": 96
+    },
+    {
+      "name": "Boiled Corn",
+      "calories": 96
+    },
+    {
+      "name": "Sweet Corn Cup",
+      "calories": 110
+    },
+    {
+      "name": "Broccoli",
+      "calories": 35
+    },
+    {
+      "name": "Cauliflower",
+      "calories": 25
+    },
+    {
+      "name": "Spinach",
+      "calories": 23
+    },
+    {
+      "name": "Lettuce",
+      "calories": 15
+    },
+    {
+      "name": "Cabbage",
+      "calories": 25
+    },
+    {
+      "name": "Carrot",
+      "calories": 41
+    },
+    {
+      "name": "Beetroot",
+      "calories": 43
+    },
+    {
+      "name": "Radish",
+      "calories": 16
+    },
+    {
+      "name": "Cucumber",
+      "calories": 15
+    },
+    {
+      "name": "Tomato",
+      "calories": 18
+    },
+    {
+      "name": "Onion",
+      "calories": 40
+    },
+    {
+      "name": "Bell Pepper",
+      "calories": 31
+    },
+    {
+      "name": "Zucchini",
+      "calories": 17
+    },
+    {
+      "name": "Eggplant",
+      "calories": 25
+    },
+    {
+      "name": "Mushroom",
+      "calories": 22
+    },
+    {
+      "name": "Green Peas",
+      "calories": 81
+    },
+    {
+      "name": "Green Beans",
+      "calories": 31
+    },
+    {
+      "name": "Okra",
+      "calories": 33
+    },
+    {
+      "name": "Bottle Gourd",
+      "calories": 14
+    },
+    {
+      "name": "Ridge Gourd",
+      "calories": 20
+    },
+    {
+      "name": "Pumpkin",
+      "calories": 26
+    },
+    {
+      "name": "Yam",
+      "calories": 118
+    },
+    {
+      "name": "Tapioca",
+      "calories": 160
+    },
+    {
+      "name": "Jackfruit",
+      "calories": 95
+    },
+    {
+      "name": "Raw Banana",
+      "calories": 122
+    },
+    {
+      "name": "Drumstick",
+      "calories": 37
+    },
+    {
+      "name": "Mint Chutney (1 tbsp)",
+      "calories": 35
+    },
+    {
+      "name": "Mayonnaise",
+      "calories": 680
+    },
+    {
+      "name": "Tomato Ketchup",
+      "calories": 112
+    },
+    {
+      "name": "Mustard Sauce",
+      "calories": 66
+    },
+    {
+      "name": "Schezwan Sauce",
+      "calories": 90
+    },
+    {
+      "name": "Soy Sauce",
+      "calories": 53
+    },
+    {
+      "name": "Chilli Sauce",
+      "calories": 100
+    },
+    {
+      "name": "Pesto Sauce",
+      "calories": 303
+    },
+    {
+      "name": "Hoisin Sauce",
+      "calories": 220
+    },
+    {
+      "name": "Barbecue Sauce",
+      "calories": 172
+    },
+    {
+      "name": "Pizza Sauce",
+      "calories": 65
+    },
+    {
+      "name": "Pasta Sauce",
+      "calories": 80
+    },
+    {
+      "name": "Guacamole",
+      "calories": 167
+    },
+    {
+      "name": "Salsa",
+      "calories": 36
+    },
+    {
+      "name": "Mashed Avocado Toast",
+      "calories": 210
+    },
+    {
+      "name": "Peanut Butter",
+      "calories": 588
+    },
+    {
+      "name": "Almond Butter",
+      "calories": 614
+    },
+    {
+      "name": "Jam",
+      "calories": 250
+    },
+    {
+      "name": "Honey",
+      "calories": 304
+    },
+    {
+      "name": "Jaggery",
+      "calories": 383
+    },
+    {
+      "name": "Sugar",
+      "calories": 387
+    },
+    {
+      "name": "Brown Sugar",
+      "calories": 380
+    },
+    {
+      "name": "Dark Chocolate",
+      "calories": 546
+    },
+    {
+      "name": "Milk Chocolate",
+      "calories": 535
+    },
+    {
+      "name": "White Chocolate",
+      "calories": 539
+    },
+    {
+      "name": "Chocolate Spread",
+      "calories": 539
+    },
+    {
+      "name": "Marshmallow",
+      "calories": 318
+    },
+    {
+      "name": "Jelly",
+      "calories": 266
+    },
+    {
+      "name": "Custard",
+      "calories": 122
+    },
+    {
+      "name": "Pudding",
+      "calories": 130
+    },
+    {
+      "name": "Rice Pudding",
+      "calories": 160
+    },
+    {
+      "name": "Banana Bread",
+      "calories": 326,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": null,
+          "carbs_g": null,
+          "fat_g": null,
+          "fiber_g": null,
+          "sugar_g": null
+        },
+        "vitamins": {
+          "vitamin_a_mcg": null,
+          "vitamin_c_mg": null,
+          "vitamin_d_mcg": null,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": null,
+          "riboflavin_b2_mg": null,
+          "niacin_b3_mg": null,
+          "vitamin_b6_mg": null,
+          "folate_mcg": null,
+          "vitamin_b12_mcg": null
+        },
+        "minerals": {
+          "calcium_mg": null,
+          "iron_mg": null,
+          "magnesium_mg": null,
+          "phosphorus_mg": null,
+          "potassium_mg": null,
+          "sodium_mg": null,
+          "zinc_mg": null
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source\u2019s nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/banana-bread",
+          "fetched_at": "2026-04-21T15:09:26+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_updated_at": "2026-04-21 20:39:26"
+    },
+    {
+      "name": "Croissant",
+      "calories": 231
+    },
+    {
+      "name": "Bagel",
+      "calories": 250
+    },
+    {
+      "name": "Pretzel",
+      "calories": 338
+    },
+    {
+      "name": "Cereal Bar",
+      "calories": 140
+    },
+    {
+      "name": "Stuffed Kulcha",
+      "calories": 280
+    },
+    {
+      "name": "Pesarattu",
+      "calories": 190
+    },
+    {
+      "name": "Adai",
+      "calories": 200
+    },
+    {
+      "name": "Appam",
+      "calories": 120
+    },
+    {
+      "name": "Idiyappam",
+      "calories": 110
+    },
+    {
+      "name": "Puttu",
+      "calories": 180
+    },
+    {
+      "name": "Kappa",
+      "calories": 160
+    },
+    {
+      "name": "Kothu Parotta",
+      "calories": 380
+    },
+    {
+      "name": "Parotta",
+      "calories": 300
+    },
+    {
+      "name": "Chilli Parotta",
+      "calories": 410
+    },
+    {
+      "name": "Curd Vada",
+      "calories": 180
+    },
+    {
+      "name": "Kesari Bath",
+      "calories": 240
+    },
+    {
+      "name": "Bisibele Bath",
+      "calories": 250
+    },
+    {
+      "name": "Puliyogare",
+      "calories": 230
+    },
+    {
+      "name": "Ven Pongal",
+      "calories": 220
+    },
+    {
+      "name": "Curd Semiya",
+      "calories": 190
+    },
+    {
+      "name": "Lemon Sevai",
+      "calories": 180
+    },
+    {
+      "name": "Tomato Rice",
+      "calories": 220
+    },
+    {
+      "name": "Mint Rice (1 cup)",
+      "calories": 210
+    },
+    {
+      "name": "Ghee Rice (1 cup)",
+      "calories": 260
+    },
+    {
+      "name": "Paneer Fried Rice (1 cup)",
+      "calories": 290
+    },
+    {
+      "name": "Mushroom Fried Rice (1 cup)",
+      "calories": 270
+    },
+    {
+      "name": "Veg Noodle Soup",
+      "calories": 160
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "calories": 180
+    },
+    {
+      "name": "Roti Canai",
+      "calories": 301
+    },
+    {
+      "name": "Lasagna",
+      "calories": 350
+    },
+    {
+      "name": "Ravioli",
+      "calories": 260
+    },
+    {
+      "name": "Gnocchi",
+      "calories": 250
+    },
+    {
+      "name": "Risotto",
+      "calories": 240
+    },
+    {
+      "name": "Paella",
+      "calories": 290
+    },
+    {
+      "name": "Couscous",
+      "calories": 112
+    },
+    {
+      "name": "Fried Egg Sandwich",
+      "calories": 270
+    },
+    {
+      "name": "Club Sandwich",
+      "calories": 360
+    },
+    {
+      "name": "Paneer Tikka",
+      "calories": 265
+    },
+    {
+      "name": "Chicken Tikka",
+      "calories": 230
+    },
+    {
+      "name": "Seekh Kebab",
+      "calories": 290
+    },
+    {
+      "name": "Shami Kebab",
+      "calories": 250
+    },
+    {
+      "name": "Hara Bhara Kebab",
+      "calories": 180
+    },
+    {
+      "name": "Cornflakes Chivda",
+      "calories": 150
+    },
+    {
+      "name": "Sabudana Khichdi",
+      "calories": 280
+    },
+    {
+      "name": "Sabudana Vada",
+      "calories": 220
+    },
+    {
+      "name": "Fafda",
+      "calories": 170
+    },
+    {
+      "name": "Dhokla",
+      "calories": 160
+    },
+    {
+      "name": "Khandvi",
+      "calories": 130
+    },
+    {
+      "name": "Handvo",
+      "calories": 180
+    },
+    {
+      "name": "Patra",
+      "calories": 140
+    },
+    {
+      "name": "Undhiyu",
+      "calories": 260
+    },
+    {
+      "name": "Dal Makhani (1 cup)",
+      "calories": 280
+    },
+    {
+      "name": "Chana Masala (1 cup)",
+      "calories": 220
+    },
+    {
+      "name": "Aloo Matar (1 cup)",
+      "calories": 190
+    },
+    {
+      "name": "Jeera Aloo",
+      "calories": 180
+    },
+    {
+      "name": "Methi Thepla",
+      "calories": 135
+    },
+    {
+      "name": "Veg Kofta",
+      "calories": 280
+    },
+    {
+      "name": "Corn Soup",
+      "calories": 110
+    },
+    {
+      "name": "Lentil Soup",
+      "calories": 140
+    },
+    {
+      "name": "Minestrone Soup",
+      "calories": 120
+    },
+    {
+      "name": "Pumpkin Soup",
+      "calories": 90
+    },
+    {
+      "name": "Chicken Caesar Salad",
+      "calories": 220
+    },
+    {
+      "name": "Pasta Salad",
+      "calories": 210
+    },
+    {
+      "name": "Coleslaw",
+      "calories": 150
+    },
+    {
+      "name": "Mac and Cheese",
+      "calories": 310
+    },
+    {
+      "name": "Stuffed Bell Pepper",
+      "calories": 180
+    },
+    {
+      "name": "Stuffed Mushroom",
+      "calories": 140
+    },
+    {
+      "name": "Veg Au Gratin",
+      "calories": 260
+    },
+    {
+      "name": "Mashed Cauliflower",
+      "calories": 70
+    },
+    {
+      "name": "Quinoa Salad",
+      "calories": 170
+    },
+    {
+      "name": "Overnight Oats",
+      "calories": 220
+    },
+    {
+      "name": "Chia Pudding",
+      "calories": 180
+    },
+    {
+      "name": "Fruit Yogurt",
+      "calories": 140
+    },
+    {
+      "name": "Frozen Yogurt",
+      "calories": 127
+    },
+    {
+      "name": "Ragi Dosa",
+      "calories": 120
+    },
+    {
+      "name": "Oats Dosa",
+      "calories": 130
+    },
+    {
+      "name": "Quinoa Upma",
+      "calories": 170
+    },
+    {
+      "name": "Millet Pongal",
+      "calories": 200
+    },
+    {
+      "name": "Jowar Roti",
+      "calories": 120
+    },
+    {
+      "name": "Bajra Roti",
+      "calories": 130
+    },
+    {
+      "name": "Ragi Roti",
+      "calories": 115
+    },
+    {
+      "name": "Stuffed Paratha",
+      "calories": 300
+    },
+    {
+      "name": "Methi Paratha",
+      "calories": 240
+    },
+    {
+      "name": "Lachha Paratha",
+      "calories": 310
+    },
+    {
+      "name": "Palak Soup",
+      "calories": 85
+    },
+    {
+      "name": "Tomato Rice Soup",
+      "calories": 95
+    },
+    {
+      "name": "Broccoli Soup",
+      "calories": 90
+    },
+    {
+      "name": "Cheese Balls",
+      "calories": 260
+    },
+    {
+      "name": "Paneer Fingers",
+      "calories": 240
+    },
+    {
+      "name": "Veg Fingers",
+      "calories": 190
+    },
+    {
+      "name": "Chicken Fingers",
+      "calories": 300
+    },
+    {
+      "name": "Hash Browns",
+      "calories": 150
+    },
+    {
+      "name": "Mashed Banana Oats",
+      "calories": 190
+    },
+    {
+      "name": "Rava Kesari",
+      "calories": 250
+    },
+    {
+      "name": "Besan Chilla",
+      "calories": 160
+    },
+    {
+      "name": "Moong Chilla",
+      "calories": 150
+    },
+    {
+      "name": "Paneer Chilla",
+      "calories": 220
+    },
+    {
+      "name": "Veg Omelette",
+      "calories": 170
+    },
+    {
+      "name": "Chicken Salad",
+      "calories": 190
+    },
+    {
+      "name": "Egg Salad",
+      "calories": 180
+    },
+    {
+      "name": "Boiled Chickpeas",
+      "calories": 164
+    },
+    {
+      "name": "Boiled Lentils",
+      "calories": 116
+    },
+    {
+      "name": "Boiled Kidney Beans",
+      "calories": 127
+    },
+    {
+      "name": "Roasted Soy Nuts",
+      "calories": 449
+    },
+    {
+      "name": "Soya Chunks Curry (1 cup)",
+      "calories": 190
+    },
+    {
+      "name": "Soya Chaap",
+      "calories": 210
+    },
+    {
+      "name": "Veg Bolognese",
+      "calories": 240
+    },
+    {
+      "name": "Chicken Pasta",
+      "calories": 290
+    },
+    {
+      "name": "Paneer Pasta",
+      "calories": 300
+    },
+    {
+      "name": "Tomato Bruschetta",
+      "calories": 140
+    },
+    {
+      "name": "Cheese Bruschetta",
+      "calories": 180
+    },
+    {
+      "name": "Stuffed Garlic Bread",
+      "calories": 220
+    },
+    {
+      "name": "Mini Pizza",
+      "calories": 210
+    },
+    {
+      "name": "Cheese Corn Balls",
+      "calories": 230
+    },
+    {
+      "name": "Corn Cheese Sandwich",
+      "calories": 290
+    },
+    {
+      "name": "Veg Mayo Sandwich",
+      "calories": 310
+    },
+    {
+      "name": "Paneer Sandwich",
+      "calories": 280
+    },
+    {
+      "name": "Chicken Sandwich",
+      "calories": 300
+    },
+    {
+      "name": "Tandoori Paneer Wrap",
+      "calories": 320
+    },
+    {
+      "name": "Tandoori Chicken Wrap",
+      "calories": 340
+    },
+    {
+      "name": "Veg Burrito Bowl",
+      "calories": 330
+    },
+    {
+      "name": "Chicken Burrito Bowl",
+      "calories": 380
+    },
+    {
+      "name": "Rice Bowl",
+      "calories": 320
+    },
+    {
+      "name": "Paneer Rice Bowl",
+      "calories": 360
+    },
+    {
+      "name": "Chicken Rice Bowl",
+      "calories": 390
+    },
+    {
+      "name": "Buddha Bowl",
+      "calories": 340
+    },
+    {
+      "name": "Yogurt Parfait",
+      "calories": 180
+    },
+    {
+      "name": "Fruit Bowl",
+      "calories": 110
+    },
+    {
+      "name": "Dry Fruit Laddu",
+      "calories": 210
+    },
+    {
+      "name": "Til Laddu",
+      "calories": 190
+    },
+    {
+      "name": "Peanut Chikki",
+      "calories": 210
+    },
+    {
+      "name": "Sesame Chikki",
+      "calories": 200
+    },
+    {
+      "name": "Protein Pancake",
+      "calories": 220
+    },
+    {
+      "name": "Chicken Sausage",
+      "calories": 210
+    },
+    {
+      "name": "Turkey Salad",
+      "calories": 180
+    },
+    {
+      "name": "Veg Patty",
+      "calories": 160
+    },
+    {
+      "name": "Chicken Patty",
+      "calories": 230
+    },
+    {
+      "name": "Paneer Patty",
+      "calories": 210
+    },
+    {
+      "name": "Veg Puff",
+      "calories": 280
+    },
+    {
+      "name": "Egg Puff",
+      "calories": 300
+    },
+    {
+      "name": "Chicken Puff",
+      "calories": 320
+    },
+    {
+      "name": "Masala Corn",
+      "calories": 130
+    },
+    {
+      "name": "Butter Corn",
+      "calories": 160
+    },
+    {
+      "name": "Cheese Corn",
+      "calories": 210
+    },
+    {
+      "name": "Veg Loaded Nachos",
+      "calories": 360
+    },
+    {
+      "name": "Chicken Loaded Nachos",
+      "calories": 410
+    },
+    {
+      "name": "Veg Supreme Pizza Slice",
+      "calories": 290
+    },
+    {
+      "name": "BBQ Chicken Pizza Slice",
+      "calories": 320
+    },
+    {
+      "name": "Paneer Pizza Slice",
+      "calories": 300
+    },
+    {
+      "name": "Mushroom Pizza Slice",
+      "calories": 275
+    },
+    {
+      "name": "Egg Fried Noodles",
+      "calories": 300
+    },
+    {
+      "name": "Chicken Fried Noodles",
+      "calories": 330
+    },
+    {
+      "name": "Veg Hakka Noodles",
+      "calories": 280
+    },
+    {
+      "name": "Paneer Hakka Noodles",
+      "calories": 310
+    },
+    {
+      "name": "Chicken Hakka Noodles",
+      "calories": 340
+    },
+    {
+      "name": "Veg Clear Soup",
+      "calories": 60
+    },
+    {
+      "name": "Chicken Clear Soup",
+      "calories": 80
+    },
+    {
+      "name": "Lemon Coriander Soup",
+      "calories": 70
+    },
+    {
+      "name": "Miso Soup",
+      "calories": 40
+    },
+    {
+      "name": "Edamame",
+      "calories": 121
+    },
+    {
+      "name": "Soba Noodles",
+      "calories": 200
+    },
+    {
+      "name": "Teriyaki Chicken",
+      "calories": 250
+    },
+    {
+      "name": "Teriyaki Tofu",
+      "calories": 180
+    },
+    {
+      "name": "Veg Sushi Roll",
+      "calories": 210
+    },
+    {
+      "name": "Salmon Sushi Roll",
+      "calories": 250
+    },
+    {
+      "name": "Poke Bowl",
+      "calories": 360
+    },
+    {
+      "name": "Chicken Poke Bowl",
+      "calories": 390
+    },
+    {
+      "name": "Paneer Poke Bowl",
+      "calories": 370
+    },
+    {
+      "name": "Cauliflower Rice",
+      "calories": 25
+    },
+    {
+      "name": "Zoodle Pasta",
+      "calories": 90
+    },
+    {
+      "name": "Stuffed Tomato",
+      "calories": 120
+    },
+    {
+      "name": "Stuffed Zucchini",
+      "calories": 130
+    },
+    {
+      "name": "Baked Beans",
+      "calories": 155
+    },
+    {
+      "name": "Refried Beans",
+      "calories": 180
+    },
+    {
+      "name": "Paneer Salad",
+      "calories": 200
+    },
+    {
+      "name": "Avocado Salad",
+      "calories": 180
+    },
+    {
+      "name": "Kale Salad",
+      "calories": 90
+    },
+    {
+      "name": "Beetroot Salad",
+      "calories": 80
+    },
+    {
+      "name": "Carrot Soup",
+      "calories": 75
+    },
+    {
+      "name": "Beet Soup",
+      "calories": 70
+    },
+    {
+      "name": "Lauki Soup",
+      "calories": 50
+    },
+    {
+      "name": "Spinach Corn Sandwich",
+      "calories": 270
+    },
+    {
+      "name": "Oats Idli",
+      "calories": 55
+    },
+    {
+      "name": "Ragi Idli",
+      "calories": 60
+    },
+    {
+      "name": "Stuffed Dosa",
+      "calories": 240
+    },
+    {
+      "name": "Cheese Dosa",
+      "calories": 280
+    },
+    {
+      "name": "Paneer Dosa",
+      "calories": 270
+    },
+    {
+      "name": "Ghee Roast Dosa",
+      "calories": 310
+    },
+    {
+      "name": "Set Dosa",
+      "calories": 160
+    },
+    {
+      "name": "Neer Dosa",
+      "calories": 100
+    },
+    {
+      "name": "Akki Roti",
+      "calories": 170
+    },
+    {
+      "name": "Ragi Malt",
+      "calories": 140
+    },
+    {
+      "name": "Badam Milk",
+      "calories": 180
+    },
+    {
+      "name": "Turmeric Milk",
+      "calories": 130
+    },
+    {
+      "name": "Masala Buttermilk",
+      "calories": 45
+    },
+    {
+      "name": "Jeera Buttermilk",
+      "calories": 42
+    },
+    {
+      "name": "Lemon Tea",
+      "calories": 10
+    },
+    {
+      "name": "Iced Tea",
+      "calories": 90
+    },
+    {
+      "name": "Cold Brew Coffee",
+      "calories": 15
+    },
+    {
+      "name": "Americano",
+      "calories": 10
+    },
+    {
+      "name": "Filter Coffee",
+      "calories": 90
+    },
+    {
+      "name": "butt",
+      "calories": 350,
+      "nutrients": {
+        "basis": {
+          "unit": "unit",
+          "note": "Estimated unit nutrients by scaling from 100g using calories."
+        },
+        "macros": {
+          "protein_g": 5.2,
+          "carbs_g": 7.5,
+          "fat_g": 13.0,
+          "fiber_g": 1.6,
+          "sugar_g": 2.9
+        },
+        "vitamins": {
+          "vitamin_a_mcg": 93.0,
+          "vitamin_c_mg": 7.0,
+          "vitamin_d_mcg": 0.0,
+          "vitamin_e_mg": null,
+          "vitamin_k_mcg": null,
+          "thiamin_b1_mg": 0.0,
+          "riboflavin_b2_mg": 0.1,
+          "niacin_b3_mg": 0.3,
+          "vitamin_b6_mg": 0.1,
+          "folate_mcg": 18.0,
+          "vitamin_b12_mcg": 0.3
+        },
+        "minerals": {
+          "calcium_mg": 190.0,
+          "iron_mg": 0.7,
+          "magnesium_mg": 22.0,
+          "phosphorus_mg": 120.0,
+          "potassium_mg": 180.0,
+          "sodium_mg": 420.0,
+          "zinc_mg": 0.5
+        },
+        "phytonutrients": {
+          "note": "Phytonutrients are not listed in this source\u2019s nutrition table."
+        },
+        "source": {
+          "provider": "IndianCalorie",
+          "url": "https://www.indiancalorie.com/india/foods/all/butt",
+          "fetched_at": "2026-04-21T15:16:08+00:00",
+          "unit_conversions": {
+            "vitamin_a_iu_to_mcg": 0.3,
+            "vitamin_d_iu_to_mcg": 0.025
+          }
+        }
+      },
+      "nutrients_updated_at": "2026-04-21 20:46:08"
+    }
+  ]
+}

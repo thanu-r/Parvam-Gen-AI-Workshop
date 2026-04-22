@@ -1,0 +1,286 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard | Food Calorie Counter{% endblock %}
+
+{% block content %}
+<section class="dash-hero">
+  <div class="dash-hero-inner">
+    <div class="dash-hero-top">
+      <div>
+        <p class="dash-kicker">nutritions</p>
+        <h2 class="dash-title">{{ username }}'s day</h2>
+      </div>
+      <form method="get" class="dash-date">
+        <label class="sr-only" for="date">Date</label>
+        <input id="date" type="date" name="date" value="{{ selected_date }}">
+        <button type="submit" class="btn btn-secondary">View</button>
+      </form>
+    </div>
+
+    <div class="score-card">
+      <div class="score-left">
+        <div class="score-ring" style="--p: {{ summary.percentage }};">
+          <div class="score-ring-inner">
+            <div class="score-number">{{ summary.percentage }}<span>%</span></div>
+            <div class="score-caption">{% if summary.exceeded %}Over target{% else %}Daily score{% endif %}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="score-right">
+        <div class="score-metrics">
+          <div class="score-metric">
+            <span class="muted">Consumed</span>
+            <strong>{{ summary.total }} kcal</strong>
+          </div>
+          <div class="score-metric">
+            <span class="muted">Target</span>
+            <strong>{{ summary.goal }} kcal</strong>
+          </div>
+          <div class="score-metric">
+            <span class="muted">Remaining</span>
+            <strong>{{ summary.remaining }} kcal</strong>
+          </div>
+        </div>
+
+        {% if nutrient_totals %}
+          <div class="macro-tabs" role="group" aria-label="Macros">
+            <div class="macro-tab macro-tab-carbs">
+              <span>Carbs</span>
+              <strong>{{ nutrient_totals.macros.carbs_g }} g</strong>
+            </div>
+            <div class="macro-tab macro-tab-protein">
+              <span>Protein</span>
+              <strong>{{ nutrient_totals.macros.protein_g }} g</strong>
+            </div>
+            <div class="macro-tab macro-tab-fat">
+              <span>Fat</span>
+              <strong>{{ nutrient_totals.macros.fat_g }} g</strong>
+            </div>
+          </div>
+        {% endif %}
+
+        <div class="progress-wrap progress-compact">
+          <div class="progress-meta">
+            <span class="muted">Progress</span>
+            <span class="muted">{{ summary.percentage }}%</span>
+          </div>
+          <div id="calorie-bar" class="progress-bar {% if summary.exceeded %}red{% endif %}">
+            <div class="progress-fill" style="width: {{ summary.percentage }}%"></div>
+          </div>
+          {% if summary.exceeded %}
+            <div class="calorie-exceeded">Calorie Limit Exceeded</div>
+          {% else %}
+            <div class="progress-caption">You're on track for your calorie goal today.</div>
+          {% endif %}
+        </div>
+
+        <div class="score-actions">
+          <a class="btn btn-primary btn-wide" href="#add-entry">Log New Meal</a>
+          <a class="btn btn-secondary" href="{{ url_for('history') }}">Nutrition History</a>
+        </div>
+
+        {% if nutrient_totals %}
+          <details class="nutrient-details">
+            <summary>Micronutrients (today)</summary>
+            <div class="nutrient-block">
+              <strong>Vitamins</strong>
+              <ul>
+                {% for key, label, unit in vitamin_fields %}
+                  {% if nutrient_totals.vitamins.get(key) is not none %}
+                    <li>{{ label }}: {{ nutrient_totals.vitamins.get(key) }} {{ unit }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+              <strong>Minerals</strong>
+              <ul>
+                {% for key, label, unit in mineral_fields %}
+                  {% if nutrient_totals.minerals.get(key) is not none %}
+                    <li>{{ label }}: {{ nutrient_totals.minerals.get(key) }} {{ unit }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+              <p class="muted">Phytonutrients are not consistently available from most sources.</p>
+            </div>
+          </details>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dash-grid">
+  <div class="panel dash-panel" id="add-entry">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">Meal Log</p>
+        <h3>Add entry</h3>
+      </div>
+      <form method="post" action="{{ url_for('update_goal') }}" class="inline-form compact-form">
+        <input type="hidden" name="date" value="{{ selected_date }}">
+        <label for="goal">Goal</label>
+        <input id="goal" type="number" name="daily_goal" min="1" value="{{ summary.goal }}" required>
+        <button type="submit" class="btn btn-secondary">Save</button>
+      </form>
+    </div>
+
+    <form method="post" class="form-card" id="meal-form">
+      <label for="food-item">Food Item Name</label>
+      <input id="food-item" type="text" name="food" list="food-list" placeholder="Search food..." required>
+      <datalist id="food-list">
+        {% for food in foods %}
+          <option value="{{ food.name }}">{{ food.calories }} kcal</option>
+        {% endfor %}
+      </datalist>
+
+      <div class="field-row">
+        <div>
+          <label for="meal-type">Meal Type</label>
+          <select id="meal-type" name="meal" required>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Snack">Snack</option>
+          </select>
+        </div>
+        <div>
+          <label for="meal-date">Entry Date</label>
+          <input id="meal-date" type="date" name="date" value="{{ selected_date }}" required>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div>
+          <label for="qty">Quantity</label>
+          <input id="qty" type="number" name="qty" min="1" value="1" required>
+        </div>
+        <div>
+          <label for="calories">Calories Per Unit</label>
+          <input id="calories" type="number" name="calories" min="1" value="" required>
+        </div>
+      </div>
+
+      <div id="nutrient-preview" class="nutrient-preview muted"></div>
+      <button type="submit" class="btn btn-primary btn-wide">Add Meal</button>
+    </form>
+  </div>
+
+  <div class="panel dash-panel">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">Meals</p>
+        <h3>{{ selected_date }}</h3>
+      </div>
+    </div>
+
+    {% if meals %}
+      <div class="meal-list">
+        {% for meal in meals %}
+          <article class="meal-item">
+            <div class="meal-main">
+              <div class="meal-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 3h16"></path>
+                  <path d="M6 3v8a4 4 0 0 0 8 0V3"></path>
+                  <path d="M18 3v8"></path>
+                  <path d="M8 21h8"></path>
+                </svg>
+              </div>
+              <div class="meal-text">
+                <div class="meal-title">{{ meal.food }}</div>
+                <div class="meal-sub muted">{{ meal.meal }} • Qty {{ meal.qty }}</div>
+                <div class="meal-subrow">
+                  {% if meal.macros_summary %}
+                    <span class="macro-pill">{{ meal.macros_summary }}</span>
+                  {% else %}
+                    <span class="muted">Macros: &mdash;</span>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+
+            <div class="meal-meta">
+              <div class="meal-kcal">{{ meal.calories }}<span>kcal</span></div>
+              <div class="action-buttons">
+                <a class="btn btn-secondary btn-small" href="{{ url_for('edit_meal', meal_id=meal.id, next='dashboard') }}">Edit</a>
+                <form method="post" action="{{ url_for('delete_meal', meal_id=meal.id) }}">
+                  <button type="submit" class="btn btn-danger btn-small">Delete</button>
+                </form>
+              </div>
+            </div>
+
+            <details class="nutrient-details meal-details">
+              <summary>Nutrition Facts</summary>
+              {% if meal.nutrients_total %}
+                <div class="nutrient-block">
+                  <table class="nutrient-facts">
+                    <thead>
+                      <tr>
+                        <th>Nutrient</th>
+                        <th>For this meal</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Energy</td>
+                        <td>{{ meal.calories }} kcal</td>
+                      </tr>
+                      <tr>
+                        <td>Protein</td>
+                        <td>
+                          {% if meal.nutrients_total.macros.get('protein_g') is not none %}
+                            {{ meal.nutrients_total.macros.get('protein_g') }} g
+                          {% else %}
+                            &mdash;
+                          {% endif %}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Carbohydrates</td>
+                        <td>
+                          {% if meal.nutrients_total.macros.get('carbs_g') is not none %}
+                            {{ meal.nutrients_total.macros.get('carbs_g') }} g
+                          {% else %}
+                            &mdash;
+                          {% endif %}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Total Fat</td>
+                        <td>
+                          {% if meal.nutrients_total.macros.get('fat_g') is not none %}
+                            {{ meal.nutrients_total.macros.get('fat_g') }} g
+                          {% else %}
+                            &mdash;
+                          {% endif %}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Fiber</td>
+                        <td>
+                          {% if meal.nutrients_total.macros.get('fiber_g') is not none %}
+                            {{ meal.nutrients_total.macros.get('fiber_g') }} g
+                          {% else %}
+                            &mdash;
+                          {% endif %}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              {% else %}
+                <div class="nutrient-block">
+                  <p class="muted">Nutrient details not available for this item yet.</p>
+                </div>
+              {% endif %}
+            </details>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="empty-state">No meals added for this date.</p>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
+

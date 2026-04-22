@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Home | Food Calorie Counter{% endblock %}
+
+{% block content %}
+<section class="panel">
+  <div class="panel-header">
+    <div>
+      <p class="eyebrow">Home</p>
+      <h2>Welcome, {{ username }}</h2>
+    </div>
+    <a class="btn btn-primary" href="{{ url_for('dashboard', date=selected_date) }}">Log Today's Meals</a>
+  </div>
+
+  <div class="summary-grid">
+    <div class="summary-card">
+      <span>Today's Calories</span>
+      <strong>{{ summary.total }} kcal</strong>
+    </div>
+    <div class="summary-card">
+      <span>Daily Goal</span>
+      <strong>{{ summary.goal }} kcal</strong>
+    </div>
+    <div class="summary-card">
+      <span>Remaining</span>
+      <strong>{{ summary.remaining }} kcal</strong>
+    </div>
+  </div>
+
+  <div class="hero-actions">
+    <a class="btn btn-secondary" href="{{ url_for('dashboard', date=selected_date) }}">Go To Dashboard</a>
+    <a class="btn btn-secondary" href="{{ url_for('history') }}">View History</a>
+  </div>
+</section>
+
+<section class="panel panel-spaced">
+  <div class="panel-header">
+    <div>
+      <p class="eyebrow">Today</p>
+      <h3>Recent entries ({{ selected_date }})</h3>
+    </div>
+  </div>
+
+  {% if recent_meals %}
+    <div class="meal-list">
+      {% for meal in recent_meals %}
+        <article class="meal-item">
+          <div class="meal-main">
+            <div class="meal-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 3h16"></path>
+                <path d="M6 3v8a4 4 0 0 0 8 0V3"></path>
+                <path d="M18 3v8"></path>
+                <path d="M8 21h8"></path>
+              </svg>
+            </div>
+            <div class="meal-text">
+              <div class="meal-title">{{ meal.food }}</div>
+              <div class="meal-sub muted">{{ meal.meal }} • Qty {{ meal.qty }}</div>
+              <div class="meal-subrow">
+                {% if meal.macros_summary %}
+                  <span class="macro-pill">{{ meal.macros_summary }}</span>
+                {% else %}
+                  <span class="muted">Macros: &mdash;</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="meal-meta">
+            <div class="meal-kcal">{{ meal.calories }}<span>kcal</span></div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty-state">No meals logged for today yet.</p>
+  {% endif %}
+</section>
+{% endblock %}

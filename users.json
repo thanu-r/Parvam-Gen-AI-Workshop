@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "demo",
+      "password": "demo123",
+      "daily_goal": 2000,
+      "created_at": "2025-08-01 09:00:00"
+    },
+    {
+      "username": "Thanisha R",
+      "password": "scrypt:32768:8:1$38p8v0DYUfhQ1xRz$4664596b1ec8c3a6fbf396095a6814b22f20971146ee043712044d78b6cdd8956076d6d9209962830659e4c4d7f1b4703fcdacd5d31205c622bead9654b2a927",
+      "daily_goal": 1500,
+      "created_at": "2026-04-19 08:50:04"
+    }
+  ]
+}

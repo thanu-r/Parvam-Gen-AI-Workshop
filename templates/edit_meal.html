@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Meal | Food Calorie Counter{% endblock %}
+
+{% block content %}
+<section class="panel">
+  <div class="panel-header">
+    <div>
+      <p class="eyebrow">Edit Entry</p>
+      <h2>Update meal details</h2>
+    </div>
+    <a class="btn btn-secondary" href="{{ url_for('history') if next_page == 'history' else url_for('dashboard') }}">Back</a>
+  </div>
+
+  <form method="post" class="form-card">
+    <input type="hidden" name="next" value="{{ next_page }}">
+
+    <label for="food-item">Food Item Name</label>
+    <input id="food-item" type="text" name="food" list="food-list" value="{{ meal.food }}" required>
+    <datalist id="food-list">
+      {% for food in foods %}
+        <option value="{{ food.name }}">{{ food.calories }} kcal</option>
+      {% endfor %}
+    </datalist>
+
+    <label for="meal-type">Meal Type</label>
+    <select id="meal-type" name="meal" required>
+      <option value="Breakfast" {% if meal.meal == "Breakfast" %}selected{% endif %}>Breakfast</option>
+      <option value="Lunch" {% if meal.meal == "Lunch" %}selected{% endif %}>Lunch</option>
+      <option value="Dinner" {% if meal.meal == "Dinner" %}selected{% endif %}>Dinner</option>
+      <option value="Snack" {% if meal.meal == "Snack" %}selected{% endif %}>Snack</option>
+    </select>
+
+    <label for="meal-date">Entry Date</label>
+    <input id="meal-date" type="date" name="date" value="{{ meal.date }}" required>
+
+    <label for="qty">Quantity</label>
+    <input id="qty" type="number" name="qty" min="1" value="{{ meal.qty }}" required>
+
+    <label for="calories">Calories Per Unit</label>
+    <input id="calories" type="number" name="calories" min="1" value="{{ (meal.calories // meal.qty) if meal.qty else meal.calories }}" required>
+    <div id="nutrient-preview" class="nutrient-preview muted"></div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+  </form>
+</section>
+{% endblock %}
