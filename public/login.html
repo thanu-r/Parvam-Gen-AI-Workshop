@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In | CareerNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=4" />
+  </head>
+  <body class="site-shell">
+    <header class="marketing-header auth-header">
+      <div class="container marketing-nav">
+        <a class="brand linkedin-brand" href="/">
+          <span class="brand-word">CareerNest</span>
+          <span class="brand-badge">in</span>
+        </a>
+        <div class="auth-nav-actions">
+          <a class="nav-link" href="/register">Join now</a>
+          <a class="outline-btn auth-signup-btn" href="/register">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container auth-layout linkedin-auth">
+      <section class="auth-message">
+        <h1>Welcome to your professional community</h1>
+        <p class="lead">
+          Stay visible to recruiters, discover better roles, and manage your next move from one
+          polished workspace.
+        </p>
+        <div class="auth-benefits">
+          <div class="benefit-row">
+            <span class="benefit-icon">01</span>
+            <div>
+              <strong>Search jobs smarter</strong>
+              <span>Find roles by title, location, salary range, and work style.</span>
+            </div>
+          </div>
+          <div class="benefit-row">
+            <span class="benefit-icon">02</span>
+            <div>
+              <strong>Grow your visibility</strong>
+              <span>Keep your profile, skills, and resume ready for hiring teams.</span>
+            </div>
+          </div>
+          <div class="benefit-row">
+            <span class="benefit-icon">03</span>
+            <div>
+              <strong>Move opportunities faster</strong>
+              <span>Track applications, respond quickly, and stay close to every opening.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="auth-card linkedin-card">
+        <form id="loginForm" class="auth-form">
+          <h2>Sign in</h2>
+          <p class="muted">Stay updated on your professional world.</p>
+          <input type="email" name="email" placeholder="Email or phone" aria-label="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            aria-label="Password"
+            required
+          />
+          <a class="ghost-link forgot-link" href="/register">Forgot password?</a>
+          <button type="submit">Sign in</button>
+          <div class="auth-divider"><span>or</span></div>
+          <a class="outline-btn auth-secondary-btn" href="/register">New to CareerNest? Join now</a>
+          <p class="auth-legal">
+            By clicking Continue, you agree to CareerNest's Terms and acknowledge the professional
+            community guidelines.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <aside id="toast" class="toast hidden"></aside>
+    <script src="./login.js?v=4"></script>
+  </body>
+</html>

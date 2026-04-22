@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company": "LinkedSphere Technologies",
+    "location": "Bengaluru",
+    "jobType": "Full-time",
+    "salaryRange": "8-12 LPA",
+    "description": "Build responsive candidate dashboards and recruiter workflows for a growing hiring platform.",
+    "skillsRequired": "HTML, CSS, JavaScript, React"
+  },
+  {
+    "title": "Backend Engineer",
+    "company": "TalentStack Systems",
+    "location": "Hyderabad",
+    "jobType": "Full-time",
+    "salaryRange": "10-16 LPA",
+    "description": "Develop APIs, data pipelines, and secure services that support job posting and application features.",
+    "skillsRequired": "Node.js, Express, SQL, REST"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "CareerBridge Labs",
+    "location": "Pune",
+    "jobType": "Full-time",
+    "salaryRange": "12-18 LPA",
+    "description": "Own features end to end across recruiter tools, seeker journeys, and internal admin panels.",
+    "skillsRequired": "JavaScript, React, Node.js, MongoDB"
+  },
+  {
+    "title": "UI/UX Designer",
+    "company": "HireFlow Creative",
+    "location": "Remote",
+    "jobType": "Contract",
+    "salaryRange": "7-10 LPA",
+    "description": "Design polished user flows, wireframes, and prototypes for job discovery and hiring experiences.",
+    "skillsRequired": "Figma, Prototyping, UI Design, UX Research"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "Insight Grid",
+    "location": "Chennai",
+    "jobType": "Full-time",
+    "salaryRange": "7-11 LPA",
+    "description": "Analyze applicant funnel performance and turn hiring metrics into actionable dashboards.",
+    "skillsRequired": "SQL, Excel, Power BI, Analytics"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "CloudNex HR Tech",
+    "location": "Gurugram",
+    "jobType": "Full-time",
+    "salaryRange": "14-20 LPA",
+    "description": "Improve deployments, cloud reliability, and infrastructure automation for production workloads.",
+    "skillsRequired": "AWS, Docker, CI/CD, Linux"
+  },
+  {
+    "title": "QA Automation Engineer",
+    "company": "RecruitLoop Digital",
+    "location": "Noida",
+    "jobType": "Full-time",
+    "salaryRange": "8-13 LPA",
+    "description": "Create automated test coverage for recruiter dashboards, application flows, and API behavior.",
+    "skillsRequired": "Selenium, JavaScript, API Testing, Cypress"
+  },
+  {
+    "title": "Product Manager",
+    "company": "OpenHire Platforms",
+    "location": "Mumbai",
+    "jobType": "Full-time",
+    "salaryRange": "18-26 LPA",
+    "description": "Drive roadmap decisions for search, recommendations, and recruiter productivity features.",
+    "skillsRequired": "Product Strategy, Agile, Analytics, Roadmaps"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "MatchSense AI",
+    "location": "Bengaluru",
+    "jobType": "Full-time",
+    "salaryRange": "16-24 LPA",
+    "description": "Build matching and recommendation models that connect applicants with relevant opportunities.",
+    "skillsRequired": "Python, Machine Learning, Pandas, Scikit-learn"
+  },
+  {
+    "title": "Technical Recruiter",
+    "company": "TalentForge Partners",
+    "location": "Remote",
+    "jobType": "Full-time",
+    "salaryRange": "6-9 LPA",
+    "description": "Source engineering candidates, coordinate interviews, and maintain strong hiring pipelines.",
+    "skillsRequired": "Sourcing, Screening, Communication, Hiring"
+  },
+  {
+    "title": "Mobile App Developer",
+    "company": "SwiftHire Mobility",
+    "location": "Kochi",
+    "jobType": "Full-time",
+    "salaryRange": "9-14 LPA",
+    "description": "Develop mobile experiences for applicants to browse jobs and manage applications on the go.",
+    "skillsRequired": "Flutter, Dart, REST, Firebase"
+  },
+  {
+    "title": "Content Writer",
+    "company": "BrandHire Media",
+    "location": "Remote",
+    "jobType": "Part-time",
+    "salaryRange": "4-6 LPA",
+    "description": "Write employer branding copy, job descriptions, and campaign content for hiring initiatives.",
+    "skillsRequired": "Content Writing, SEO, Editing, Research"
+  },
+  {
+    "title": "Customer Success Specialist",
+    "company": "PeoplePilot SaaS",
+    "location": "Ahmedabad",
+    "jobType": "Full-time",
+    "salaryRange": "5-8 LPA",
+    "description": "Support recruiters using the platform and improve onboarding, retention, and account health.",
+    "skillsRequired": "Customer Support, CRM, Communication, Problem Solving"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "company": "SecureHire Networks",
+    "location": "Pune",
+    "jobType": "Full-time",
+    "salaryRange": "12-18 LPA",
+    "description": "Monitor security posture, investigate threats, and help protect user and hiring data.",
+    "skillsRequired": "Security, SIEM, Incident Response, Networking"
+  },
+  {
+    "title": "Business Analyst",
+    "company": "GrowthAxis Consulting",
+    "location": "Delhi",
+    "jobType": "Full-time",
+    "salaryRange": "8-12 LPA",
+    "description": "Translate stakeholder needs into product requirements and workflow improvements.",
+    "skillsRequired": "Business Analysis, SQL, Documentation, Stakeholder Management"
+  },
+  {
+    "title": "Frontend Intern",
+    "company": "Launchpad Studio",
+    "location": "Remote",
+    "jobType": "Internship",
+    "salaryRange": "20k/month",
+    "description": "Support UI implementation for dashboards, forms, and job listing experiences.",
+    "skillsRequired": "HTML, CSS, JavaScript, React"
+  },
+  {
+    "title": "HR Operations Executive",
+    "company": "WorkWave People Ops",
+    "location": "Jaipur",
+    "jobType": "Full-time",
+    "salaryRange": "4-7 LPA",
+    "description": "Handle onboarding coordination, documentation, and day-to-day hiring operations support.",
+    "skillsRequired": "HR Operations, Documentation, Excel, Coordination"
+  },
+  {
+    "title": "Sales Development Representative",
+    "company": "RecruitReach Cloud",
+    "location": "Mumbai",
+    "jobType": "Full-time",
+    "salaryRange": "6-10 LPA",
+    "description": "Generate pipeline with outreach campaigns targeting hiring teams and recruiting agencies.",
+    "skillsRequired": "Lead Generation, Sales, CRM, Communication"
+  },
+  {
+    "title": "Java Developer",
+    "company": "EnterpriseHire Solutions",
+    "location": "Chennai",
+    "jobType": "Full-time",
+    "salaryRange": "9-15 LPA",
+    "description": "Develop enterprise services and integrations supporting recruiting and applicant workflows.",
+    "skillsRequired": "Java, Spring Boot, SQL, Microservices"
+  },
+  {
+    "title": "Cloud Support Engineer",
+    "company": "NimbusWorks Tech",
+    "location": "Hyderabad",
+    "jobType": "Full-time",
+    "salaryRange": "7-11 LPA",
+    "description": "Troubleshoot cloud infrastructure issues and support stable platform operations for customers.",
+    "skillsRequired": "AWS, Troubleshooting, Linux, Networking"
+  },
+  {
+    "title": "Python Developer",
+    "company": "CodeOrbit Labs",
+    "location": "Bengaluru",
+    "jobType": "Full-time",
+    "salaryRange": "10-15 LPA",
+    "description": "Build backend services and automation workflows supporting hiring intelligence products.",
+    "skillsRequired": "Python, Django, REST, PostgreSQL"
+  },
+  {
+    "title": "React Developer",
+    "company": "PixelForge Systems",
+    "location": "Remote",
+    "jobType": "Full-time",
+    "salaryRange": "9-14 LPA",
+    "description": "Create polished web interfaces for job seekers, recruiters, and internal operations teams.",
+    "skillsRequired": "React, JavaScript, CSS, API Integration"
+  },
+  {
+    "title": "SEO Specialist",
+    "company": "RankRise Media",
+    "location": "Delhi",
+    "jobType": "Full-time",
+    "salaryRange": "5-8 LPA",
+    "description": "Improve search visibility for hiring pages, blogs, and employer branding campaigns.",
+    "skillsRequired": "SEO, Analytics, Content Strategy, Keyword Research"
+  },
+  {
+    "title": "Digital Marketing Executive",
+    "company": "LeadBridge Growth",
+    "location": "Mumbai",
+    "jobType": "Full-time",
+    "salaryRange": "4-7 LPA",
+    "description": "Run digital campaigns to attract recruiters and job seekers across performance channels.",
+    "skillsRequired": "Digital Marketing, Meta Ads, Google Ads, Analytics"
+  },
+  {
+    "title": "Software Tester",
+    "company": "QualityArc Tech",
+    "location": "Chennai",
+    "jobType": "Full-time",
+    "salaryRange": "6-9 LPA",
+    "description": "Test product releases, validate workflows, and report defects across web features.",
+    "skillsRequired": "Manual Testing, Bug Tracking, Test Cases, QA"
+  },
+  {
+    "title": "Support Engineer",
+    "company": "HelpGrid Technologies",
+    "location": "Pune",
+    "jobType": "Full-time",
+    "salaryRange": "5-9 LPA",
+    "description": "Resolve platform issues, assist enterprise customers, and maintain support SLAs.",
+    "skillsRequired": "Technical Support, Troubleshooting, SQL, Communication"
+  },
+  {
+    "title": "HR Recruiter",
+    "company": "TalentMint Services",
+    "location": "Noida",
+    "jobType": "Full-time",
+    "salaryRange": "4-7 LPA",
+    "description": "Handle candidate sourcing, interview scheduling, and hiring coordination for multiple roles.",
+    "skillsRequired": "Recruitment, Screening, Coordination, Communication"
+  },
+  {
+    "title": "Operations Analyst",
+    "company": "ScaleOps Consulting",
+    "location": "Hyderabad",
+    "jobType": "Full-time",
+    "salaryRange": "7-10 LPA",
+    "description": "Analyze business workflows and improve operational efficiency for recruiting teams.",
+    "skillsRequired": "Operations, Excel, Analysis, Process Improvement"
+  },
+  {
+    "title": "Graphic Designer",
+    "company": "BrightCanvas Studio",
+    "location": "Remote",
+    "jobType": "Contract",
+    "salaryRange": "5-8 LPA",
+    "description": "Design social creatives, employer branding assets, and campaign visuals for the platform.",
+    "skillsRequired": "Photoshop, Illustrator, Branding, Visual Design"
+  },
+  {
+    "title": "Android Developer",
+    "company": "HireMate Mobile",
+    "location": "Kochi",
+    "jobType": "Full-time",
+    "salaryRange": "8-13 LPA",
+    "description": "Build native Android experiences for browsing jobs, alerts, and application tracking.",
+    "skillsRequired": "Android, Kotlin, APIs, SQLite"
+  },
+  {
+    "title": "iOS Developer",
+    "company": "BlueWave Apps",
+    "location": "Remote",
+    "jobType": "Full-time",
+    "salaryRange": "10-16 LPA",
+    "description": "Develop iOS experiences focused on professional networking and job discovery.",
+    "skillsRequired": "Swift, iOS, REST, UIKit"
+  },
+  {
+    "title": "Finance Analyst",
+    "company": "LedgerPeak Advisory",
+    "location": "Gurugram",
+    "jobType": "Full-time",
+    "salaryRange": "8-12 LPA",
+    "description": "Model hiring budgets, track revenue metrics, and support strategic planning.",
+    "skillsRequired": "Finance, Excel, Forecasting, Analysis"
+  },
+  {
+    "title": "Talent Acquisition Specialist",
+    "company": "NextRole Partners",
+    "location": "Bengaluru",
+    "jobType": "Full-time",
+    "salaryRange": "6-10 LPA",
+    "description": "Own full-cycle recruiting for technology roles across product and engineering teams.",
+    "skillsRequired": "Talent Acquisition, Sourcing, Communication, ATS"
+  },
+  {
+    "title": "Node.js Developer",
+    "company": "ServerNest Labs",
+    "location": "Pune",
+    "jobType": "Full-time",
+    "salaryRange": "9-14 LPA",
+    "description": "Build backend APIs, optimize performance, and maintain services for hiring workflows.",
+    "skillsRequired": "Node.js, Express, MongoDB, REST"
+  },
+  {
+    "title": "AI Prompt Engineer",
+    "company": "PromptPath AI",
+    "location": "Remote",
+    "jobType": "Contract",
+    "salaryRange": "12-18 LPA",
+    "description": "Design prompts and evaluation flows for assistant-driven recruiting experiences.",
+    "skillsRequired": "Prompt Engineering, LLMs, Writing, Testing"
+  },
+  {
+    "title": "Research Associate",
+    "company": "HireSignals Research",
+    "location": "Delhi",
+    "jobType": "Full-time",
+    "salaryRange": "5-8 LPA",
+    "description": "Research market trends, hiring patterns, and competitor activity for new product insights.",
+    "skillsRequired": "Research, Writing, Analysis, Reporting"
+  },
+  {
+    "title": "UI Developer",
+    "company": "Interface Works",
+    "location": "Chandigarh",
+    "jobType": "Full-time",
+    "salaryRange": "7-11 LPA",
+    "description": "Implement responsive user interfaces for networking, messaging, and careers features.",
+    "skillsRequired": "HTML, CSS, JavaScript, Responsive Design"
+  },
+  {
+    "title": "Content Strategist",
+    "company": "StoryHire Studio",
+    "location": "Remote",
+    "jobType": "Part-time",
+    "salaryRange": "5-7 LPA",
+    "description": "Plan content calendars and create messaging for recruiting and community growth.",
+    "skillsRequired": "Content Strategy, Writing, Research, SEO"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Pipeline Vista",
+    "location": "Hyderabad",
+    "jobType": "Full-time",
+    "salaryRange": "14-20 LPA",
+    "description": "Create data pipelines, ETL jobs, and analytics foundations for hiring intelligence.",
+    "skillsRequired": "Python, SQL, ETL, Airflow"
+  },
+  {
+    "title": "Technical Program Manager",
+    "company": "SyncBridge Tech",
+    "location": "Mumbai",
+    "jobType": "Full-time",
+    "salaryRange": "18-25 LPA",
+    "description": "Coordinate cross-functional product delivery across engineering, design, and recruiting teams.",
+    "skillsRequired": "Program Management, Agile, Planning, Communication"
+  }
+]

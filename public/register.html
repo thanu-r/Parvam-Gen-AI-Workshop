@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join CareerNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=4" />
+  </head>
+  <body class="site-shell">
+    <header class="marketing-header auth-header">
+      <div class="container marketing-nav">
+        <a class="brand linkedin-brand" href="/">
+          <span class="brand-word">CareerNest</span>
+          <span class="brand-badge">in</span>
+        </a>
+        <a class="nav-link" href="/login">Already on CareerNest? Sign in</a>
+      </div>
+    </header>
+
+    <main class="container auth-layout linkedin-auth">
+      <section class="auth-message">
+        <h1>Make the most of your professional life.</h1>
+        <p class="lead">
+          Create a recruiter or job seeker account and step into a cleaner LinkedIn-style hiring
+          experience.
+        </p>
+        <div class="auth-benefits">
+          <div class="benefit-row">
+            <strong>Build your presence</strong>
+            <span>Add a headline, skills, and resume so opportunities find you faster.</span>
+          </div>
+          <div class="benefit-row">
+            <strong>Grow your pipeline</strong>
+            <span>Recruiters can publish roles and manage openings from one dashboard.</span>
+          </div>
+          <div class="benefit-row">
+            <strong>See stronger matches</strong>
+            <span>Recommended jobs are tailored to your skills and profile completeness.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="auth-card linkedin-card">
+        <form id="registerForm" class="auth-form">
+          <h2>Create your account</h2>
+          <label>Full name <input type="text" name="name" required /></label>
+          <label>Email <input type="email" name="email" required /></label>
+          <label>Password <input type="password" name="password" required minlength="6" /></label>
+          <label>
+            Role
+            <select name="role" required>
+              <option value="job_seeker">Job seeker</option>
+              <option value="recruiter">Recruiter</option>
+            </select>
+          </label>
+          <label>Headline / Company <input type="text" name="headline" required /></label>
+          <label>Skills <input type="text" name="skills" placeholder="React, SQL, Node.js" /></label>
+          <button type="submit">Agree & join</button>
+        </form>
+
+        <p class="auth-switch">
+          Already have an account? <a href="/login">Sign in</a>
+        </p>
+      </section>
+    </main>
+
+    <aside id="toast" class="toast hidden"></aside>
+    <script src="./register.js?v=4"></script>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerNest Feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=4" />
+  </head>
+  <body class="dashboard-body">
+    <header class="dashboard-header">
+      <div class="container dashboard-nav">
+        <a class="brand linkedin-brand" href="/dashboard">
+          <span class="brand-word">CareerNest</span>
+          <span class="brand-badge">in</span>
+        </a>
+
+        <div class="dashboard-search">Search roles, companies, skills</div>
+
+        <div class="dashboard-links">
+          <button type="button" class="nav-chip nav-tab active" data-section="homeSection">Home</button>
+          <button type="button" class="nav-chip nav-tab" data-section="profileSection">Profile</button>
+          <button type="button" class="nav-chip nav-tab" data-section="networkSection">My Network</button>
+          <button type="button" class="nav-chip nav-tab" data-section="jobsSection">Jobs</button>
+          <button type="button" class="nav-chip nav-tab" data-section="messagingSection">Messaging</button>
+          <button id="logoutBtn" class="ghost-btn">Sign out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container dashboard-grid">
+      <aside class="left-rail">
+        <section class="card profile-card">
+          <div class="cover-strip"></div>
+          <div class="profile-card-body">
+            <div class="avatar-circle" id="profileAvatar">CN</div>
+            <div id="profileSummary" class="profile-summary"></div>
+          </div>
+        </section>
+
+        <section class="card rail-card">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Account type</p>
+              <h2>Access</h2>
+            </div>
+            <span id="sessionBadge" class="status-badge">Member</span>
+          </div>
+          <div id="profileStats" class="stats-list"></div>
+        </section>
+      </aside>
+
+      <section class="center-rail">
+        <section id="homeSection" class="dashboard-section">
+          <section class="card composer-card">
+            <div class="composer-row">
+              <div class="avatar-circle small" id="composerAvatar">CN</div>
+              <div class="composer-pill">Share an update, publish a job, or discover your next role</div>
+            </div>
+          </section>
+
+          <section class="card rail-card info-card">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Home</p>
+                <h2>Welcome to your feed</h2>
+              </div>
+            </div>
+            <p class="muted">
+              Use the top menu to jump between your profile overview, jobs, network ideas, and
+              messaging space.
+            </p>
+          </section>
+        </section>
+
+        <section id="profileSection" class="dashboard-section hidden">
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Profile</p>
+                <h2>Your professional profile</h2>
+              </div>
+            </div>
+
+            <div class="profile-page-grid">
+              <section class="profile-hero-card">
+                <div class="cover-strip"></div>
+                <div class="profile-page-body">
+                  <div class="avatar-circle" id="profilePageAvatar">CN</div>
+                  <div class="profile-page-copy" id="profilePageSummary"></div>
+                </div>
+              </section>
+
+              <section class="card rail-card">
+                <div class="panel-head">
+                  <div>
+                    <p class="eyebrow">Details</p>
+                    <h2>Account snapshot</h2>
+                  </div>
+                </div>
+                <div id="profileDetailList" class="stats-list"></div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <section id="jobsSection" class="dashboard-section hidden">
+          <div class="jobs-page-layout">
+            <section class="card panel jobs-main-panel">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Jobs feed</p>
+                  <h2>Top opportunities for you</h2>
+                </div>
+                <span id="jobsCount" class="muted">0 roles</span>
+              </div>
+
+              <form id="filtersForm" class="filters">
+                <input type="text" name="q" placeholder="Search title, company, skills" />
+                <input type="text" name="location" placeholder="Location" />
+                <select name="jobType">
+                  <option value="">All job types</option>
+                  <option value="Full-time">Full-time</option>
+                  <option value="Part-time">Part-time</option>
+                  <option value="Internship">Internship</option>
+                  <option value="Contract">Contract</option>
+                </select>
+                <button type="submit">Search</button>
+              </form>
+
+              <div id="jobsList" class="list-grid"></div>
+            </section>
+
+            <section id="seekerPanel" class="card panel jobs-side-panel hidden">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Job seeker tools</p>
+                  <h2>Your career hub</h2>
+                </div>
+              </div>
+
+              <form id="resumeForm" class="stack-form" enctype="multipart/form-data">
+                <input type="file" name="resume" accept=".pdf,.doc,.docx,.txt" required />
+                <button type="submit">Upload resume</button>
+              </form>
+
+              <div class="subpanel">
+                <h3>Recommended jobs</h3>
+                <div id="recommendedJobs" class="list-grid compact-list"></div>
+              </div>
+
+              <div class="subpanel">
+                <h3>Your applications</h3>
+                <div id="applicationsList" class="list-grid compact-list"></div>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section id="networkSection" class="dashboard-section hidden">
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">My Network</p>
+                <h2>Grow your professional circle</h2>
+              </div>
+              <span id="networkCount" class="muted">0 connections</span>
+            </div>
+
+            <div class="network-page-grid">
+              <section class="card rail-card">
+                <div class="panel-head">
+                  <div>
+                    <p class="eyebrow">Suggestions</p>
+                    <h2>People you may know</h2>
+                  </div>
+                </div>
+                <div id="networkSuggestions" class="network-cards"></div>
+              </section>
+
+              <section class="card rail-card">
+                <div class="panel-head">
+                  <div>
+                    <p class="eyebrow">Connections</p>
+                    <h2>Your people</h2>
+                  </div>
+                </div>
+                <div id="networkConnections" class="network-cards"></div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <section id="messagingSection" class="dashboard-section hidden">
+          <section class="card rail-card info-card">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Messaging</p>
+                <h2>Your conversations</h2>
+              </div>
+            </div>
+            <div class="message-placeholder">
+              <strong>No active messages yet</strong>
+              <p class="muted">
+                When recruiters or candidates reach out, your conversations will appear here.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section id="recruiterPanel" class="card panel hidden">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Recruiter workspace</p>
+              <h2>Post and manage openings</h2>
+            </div>
+          </div>
+
+          <form id="jobForm" class="stack-form">
+            <input type="text" name="title" placeholder="Role title" required />
+            <input type="text" name="company" placeholder="Company" required />
+            <input type="text" name="location" placeholder="Location" required />
+            <select name="jobType" required>
+              <option value="Full-time">Full-time</option>
+              <option value="Part-time">Part-time</option>
+              <option value="Internship">Internship</option>
+              <option value="Contract">Contract</option>
+            </select>
+            <input type="text" name="salaryRange" placeholder="Salary range" />
+            <input type="text" name="skillsRequired" placeholder="Required skills" required />
+            <textarea name="description" rows="5" placeholder="Describe the position" required></textarea>
+            <button type="submit">Publish job</button>
+          </form>
+
+          <div class="subpanel import-panel">
+            <h3>Import jobs</h3>
+            <p class="muted">Upload a `.csv` or `.json` file to bulk add openings.</p>
+            <form id="importForm" class="stack-form" enctype="multipart/form-data">
+              <input type="file" name="jobsFile" accept=".csv,.json" required />
+              <button type="submit">Import file</button>
+            </form>
+          </div>
+
+          <div class="subpanel">
+            <h3>Your posted jobs</h3>
+            <div id="recruiterJobs" class="list-grid"></div>
+          </div>
+        </section>
+      </section>
+
+      <aside class="right-rail">
+        <section class="card rail-card">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">CareerNest today</p>
+              <h2>Network highlights</h2>
+            </div>
+          </div>
+          <ul class="news-list">
+            <li>Profiles with current skills tend to receive better job matches.</li>
+            <li>Recruiters can import openings instantly from CSV or JSON.</li>
+            <li>Use filters to quickly narrow openings by location and job type.</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <aside id="toast" class="toast hidden"></aside>
+    <script src="./dashboard.js?v=4"></script>
+  </body>
+</html>

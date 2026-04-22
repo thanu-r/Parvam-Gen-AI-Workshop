@@ -1,0 +1,3 @@
+Frontend Engineer
+Skills: JavaScript, React, CSS, SQL
+Experience: Built dashboards and job application workflows.
